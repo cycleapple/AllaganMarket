@@ -35,17 +35,17 @@ public class ImGuiMenus
 
     public MessageBase? DrawSoldItemMenu(SoldItem soldItem)
     {
-        if (ImGui.Selectable("More Information"))
+        if (ImGui.Selectable(Loc.T("More Information")))
         {
             return new OpenMoreInformation(soldItem.ItemId);
         }
 
-        if (this.recipeItemIds.Contains(soldItem.ItemId) && ImGui.Selectable("Open Crafting Log"))
+        if (this.recipeItemIds.Contains(soldItem.ItemId) && ImGui.Selectable(Loc.T("Open Crafting Log")))
         {
             this.gameInterfaceService.OpenCraftingLog(soldItem.ItemId);
         }
 
-        if (ImGui.Selectable("Delete Sold Item"))
+        if (ImGui.Selectable(Loc.T("Delete Sold Item")))
         {
             return new DeleteSoldItem(soldItem);
         }
@@ -55,54 +55,54 @@ public class ImGuiMenus
 
     public MessageBase? DrawSaleItemMenu(SaleItem saleItem)
     {
-        if (ImGui.Selectable("More Information"))
+        if (ImGui.Selectable(Loc.T("More Information")))
         {
             return new OpenMoreInformation(saleItem.ItemId);
         }
 
-        if (this.recipeItemIds.Contains(saleItem.ItemId) && ImGui.Selectable("Open Crafting Log"))
+        if (this.recipeItemIds.Contains(saleItem.ItemId) && ImGui.Selectable(Loc.T("Open Crafting Log")))
         {
             this.gameInterfaceService.OpenCraftingLog(saleItem.ItemId);
         }
 
-        if (ImGui.Selectable("Mark as Updated"))
+        if (ImGui.Selectable(Loc.T("Mark as Updated")))
         {
             this.undercutService.InsertFakeMarketPriceCache(saleItem);
         }
 
         ImGui.NewLine();
-        ImGui.Text("Undercut Settings:");
+        ImGui.Text(Loc.T("Undercut Settings:"));
         ImGui.Separator();
 
 
-        if (ImGui.Selectable("Use Default", this.configuration.GetUndercutComparison(saleItem.ItemId) == null))
+        if (ImGui.Selectable(Loc.T("Use Default"), this.configuration.GetUndercutComparison(saleItem.ItemId) == null))
         {
             this.configuration.RemoveUndercutComparison(saleItem.ItemId);
         }
 
         if (ImGui.Selectable(
-                "Any",
+                Loc.T("Any"),
                 this.configuration.GetUndercutComparison(saleItem.ItemId) == UndercutComparison.Any))
         {
             this.configuration.SetUndercutComparison(saleItem.ItemId, UndercutComparison.Any);
         }
 
         if (ImGui.Selectable(
-                "NQ Only",
+                Loc.T("NQ Only"),
                 this.configuration.GetUndercutComparison(saleItem.ItemId) == UndercutComparison.NqOnly))
         {
             this.configuration.SetUndercutComparison(saleItem.ItemId, UndercutComparison.NqOnly);
         }
 
         if (ImGui.Selectable(
-                "HQ Only",
+                Loc.T("HQ Only"),
                 this.configuration.GetUndercutComparison(saleItem.ItemId) == UndercutComparison.HqOnly))
         {
             this.configuration.SetUndercutComparison(saleItem.ItemId, UndercutComparison.HqOnly);
         }
 
         if (ImGui.Selectable(
-                "Matching Quality",
+                Loc.T("Matching Quality"),
                 this.configuration.GetUndercutComparison(saleItem.ItemId) == UndercutComparison.MatchingQuality))
         {
             this.configuration.SetUndercutComparison(saleItem.ItemId, UndercutComparison.MatchingQuality);

@@ -10,7 +10,7 @@ public class GameIntegrationsFeature(IEnumerable<IFormField<Configuration>> sett
     ],
     settings)
 {
-    public override string Name { get; } = "Game Integrations";
+    public override string Name { get; } = Loc.T("Game Integrations");
 
-    public override string Description { get; } = "Activate features that integrate directly into the game.";
+    public override string Description { get; } = Loc.T("Activate features that integrate directly into the game.");
 }

@@ -17,9 +17,9 @@ public class SaleSummaryGroupFormField(ImGuiService imGuiService)
 
     public override string Key { get; set; } = "SaleSummaryGroup";
 
-    public override string Name { get; set; } = "Sale Summary Group";
+    public override string Name { get; set; } = Loc.T("Sale Summary Group");
 
-    public override string HelpText { get; set; } = "What to group the sale summary by";
+    public override string HelpText { get; set; } = Loc.T("What to group the sale summary by");
 
     public override string Version { get; } = "1.0.0";
 

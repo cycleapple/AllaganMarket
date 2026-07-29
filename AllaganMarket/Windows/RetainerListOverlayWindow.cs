@@ -51,7 +51,7 @@ public class RetainerListOverlayWindow : OverlayWindow
         ShowRetainerOverlaySetting retainerOverlaySetting,
         UndercutService undercutService,
         HighlightingRetainerListSetting retainerListSetting)
-        : base(addonLifecycle, gameGui, logger, mediator, imGuiService, "Retainer List Overlay")
+        : base(addonLifecycle, gameGui, logger, mediator, imGuiService, Loc.T("Retainer List Overlay"))
     {
         this.characterMonitorService = characterMonitorService;
         this.saleTrackerService = saleTrackerService;
@@ -118,7 +118,7 @@ public class RetainerListOverlayWindow : OverlayWindow
         }
 
         ImGui.SameLine();
-        ImGui.Text("Allagan Market");
+        ImGui.Text(Loc.T("Allagan Market"));
 
         ImGui.SameLine();
 
@@ -128,7 +128,7 @@ public class RetainerListOverlayWindow : OverlayWindow
                 this.font,
                 FontAwesomeIcon.Bars,
                 ref currentCursorPosX,
-                "Open the Allagan Market main window.",
+                    Loc.T("Open the Allagan Market main window."),
                 true))
         {
             this.MediatorService.Publish(new ToggleWindowMessage(typeof(MainWindow)));
@@ -140,7 +140,7 @@ public class RetainerListOverlayWindow : OverlayWindow
                 this.font,
                 FontAwesomeIcon.Cog,
                 ref currentCursorPosX,
-                "Open the Allagan Market configuration window.",
+                    Loc.T("Open the Allagan Market configuration window."),
                 true))
         {
             this.MediatorService.Publish(new ToggleWindowMessage(typeof(ConfigWindow)));
@@ -152,7 +152,7 @@ public class RetainerListOverlayWindow : OverlayWindow
                 this.font,
                 FontAwesomeIcon.Eye,
                 ref currentCursorPosX,
-                "Show/hide retainers that need to be updated.",
+                    Loc.T("Show/hide retainers that need to be updated."),
                 true,
                 this.showAllRetainers ? null : ImGuiColors.ParsedGrey))
         {
@@ -166,7 +166,7 @@ public class RetainerListOverlayWindow : OverlayWindow
                 this.font,
                 FontAwesomeIcon.Lightbulb,
                 ref currentCursorPosX,
-                "Toggle highlighting on the retainer list.",
+                    Loc.T("Toggle highlighting on the retainer list."),
                 true,
                 retainerHighlighting ? null : ImGuiColors.ParsedGrey))
         {
@@ -185,19 +185,19 @@ public class RetainerListOverlayWindow : OverlayWindow
 
             using (ImRaii.Table("RetainerList", 4, ImGuiTableFlags.SizingFixedFit))
             {
-                ImGui.TableSetupColumn("Name", ImGuiTableColumnFlags.WidthFixed, 100 * ImGui.GetIO().FontGlobalScale);
-                ImGui.TableSetupColumn("Selling", ImGuiTableColumnFlags.WidthFixed, 50 * ImGui.GetIO().FontGlobalScale);
-                ImGui.TableSetupColumn("Undercut", ImGuiTableColumnFlags.WidthFixed, 70 * ImGui.GetIO().FontGlobalScale);
-                ImGui.TableSetupColumn("Last Update", ImGuiTableColumnFlags.WidthFixed, 130 * ImGui.GetIO().FontGlobalScale);
+                ImGui.TableSetupColumn(Loc.T("Name"), ImGuiTableColumnFlags.WidthFixed, 100 * ImGui.GetIO().FontGlobalScale);
+                ImGui.TableSetupColumn(Loc.T("Selling"), ImGuiTableColumnFlags.WidthFixed, 50 * ImGui.GetIO().FontGlobalScale);
+                ImGui.TableSetupColumn(Loc.T("Undercut"), ImGuiTableColumnFlags.WidthFixed, 70 * ImGui.GetIO().FontGlobalScale);
+                ImGui.TableSetupColumn(Loc.T("Last Update"), ImGuiTableColumnFlags.WidthFixed, 130 * ImGui.GetIO().FontGlobalScale);
                 ImGui.TableNextRow(ImGuiTableRowFlags.Headers);
                 ImGui.TableNextColumn();
-                ImGui.Text("Name");
+                ImGui.Text(Loc.T("Name"));
                 ImGui.TableNextColumn();
-                ImGui.Text("Selling");
+                ImGui.Text(Loc.T("Selling"));
                 ImGui.TableNextColumn();
-                ImGui.Text("Undercut?");
+                ImGui.Text(Loc.T("Undercut?"));
                 ImGui.TableNextColumn();
-                ImGui.Text("Stale Pricing?");
+                ImGui.Text(Loc.T("Stale Pricing?"));
                 foreach (var retainer in retainers)
                 {
                     var isUnderCut = this.saleTrackerService.SaleItems[retainer.CharacterId]
@@ -231,10 +231,10 @@ public class RetainerListOverlayWindow : OverlayWindow
                     ImGui.Text(sellingCount.ToString());
 
                     ImGui.TableNextColumn();
-                    ImGui.Text(isUnderCut ? "Yes" : "No");
+                    ImGui.Text(isUnderCut ? Loc.T("Yes") : Loc.T("No"));
 
                     ImGui.TableNextColumn();
-                    var needsUpdateText = needsUpdate ? "Yes" : "No";
+                        var needsUpdateText = needsUpdate ? Loc.T("Yes") : Loc.T("No");
                     if (nextUpdate != null)
                     {
                         var timeSpan = nextUpdate - DateTime.Now;
@@ -247,12 +247,12 @@ public class RetainerListOverlayWindow : OverlayWindow
 
             if (!retainersToCheck)
             {
-                ImGui.Text("No retainers left to update.");
+                ImGui.Text(Loc.T("No retainers left to update."));
             }
         }
         else
         {
-            ImGui.Text("Please login.");
+            ImGui.Text(Loc.T("Please login."));
         }
     }
 }

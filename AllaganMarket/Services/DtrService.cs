@@ -28,7 +28,7 @@ public class DtrService(
 {
     private readonly MediatorService mediatorService = mediatorService;
     private readonly UndercutService undercutService = undercutService;
-    private readonly string barTitle = "Allagan Market(Undercuts)";
+    private readonly string barTitle = Loc.T("Allagan Market(Undercuts)");
     private IDtrBarEntry? dtrBarEntry;
 
     /// <inheritdoc/>
@@ -79,14 +79,14 @@ public class DtrService(
         {
             var underCuts = saleTrackerService.GetSales(null, null).Count(c => this.undercutService.IsItemUndercut(c) ?? false);
             this.dtrBarEntry.Shown = underCuts != 0;
-            var text = "undercuts";
+            var text = Loc.T("undercuts");
             if (underCuts == 1)
             {
-                text = "undercut";
+                text = Loc.T("undercut");
             }
 
             this.dtrBarEntry.Text = new SeStringBuilder().AddText($"{underCuts} {text}").BuiltString;
-            this.dtrBarEntry.Tooltip = new SeStringBuilder().AddText($"You currently have {underCuts} undercut items")
+        this.dtrBarEntry.Tooltip = new SeStringBuilder().AddText(Loc.F("You currently have {0} undercut items", underCuts))
                                                             .BuiltString;
         }
     }

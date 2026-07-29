@@ -81,7 +81,7 @@ public class LaunchButtonService : DisposableMediatorSubscriberBase, IHostedServ
 
         try
         {
-            this.entry = this.titleScreenMenu.AddEntry("Allagan Market", this.textureProvider.GetFromFile(this.fileName), this.OnTriggered);
+            this.entry = this.titleScreenMenu.AddEntry(Loc.T("Allagan Market"), this.textureProvider.GetFromFile(this.fileName), this.OnTriggered);
 
             this.pluginInterfaceService.UiBuilder.Draw -= this.CreateEntry;
         }

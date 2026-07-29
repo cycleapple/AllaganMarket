@@ -20,7 +20,7 @@ public class UndercutByColumn(NumberFormatInfo gilFormat, ImGuiService imGuiServ
 
     public override string Key { get; set; } = "UndercutBy";
 
-    public override string Name { get; set; } = "Undercut by";
+    public override string Name { get; set; } = Loc.T("Undercut by");
 
     public override string? RenderName { get; set; } = null;
 
@@ -32,7 +32,7 @@ public class UndercutByColumn(NumberFormatInfo gilFormat, ImGuiService imGuiServ
 
     public override string EmptyText { get; set; } = string.Empty;
 
-    public override string HelpText { get; set; } = "How much the item was undercut by.";
+    public override string HelpText { get; set; } = Loc.T("How much the item was undercut by.");
 
     public override string Version { get; } = "1.0.0";
 

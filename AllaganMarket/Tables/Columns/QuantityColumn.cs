@@ -15,7 +15,7 @@ public class QuantityColumn(ImGuiService imGuiService, StringColumnFilter string
 
     public override string Key { get; set; } = "quantity";
 
-    public override string Name { get; set; } = "Quantity";
+    public override string Name { get; set; } = Loc.T("Quantity");
 
     public override string? RenderName { get; set; }
 
@@ -27,7 +27,7 @@ public class QuantityColumn(ImGuiService imGuiService, StringColumnFilter string
 
     public override string EmptyText { get; set; } = string.Empty;
 
-    public override string HelpText { get; set; } = "The quantity of item being sold.";
+    public override string HelpText { get; set; } = Loc.T("The quantity of item being sold.");
 
     public override string Version => "1.0.0";
 

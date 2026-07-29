@@ -9,10 +9,10 @@ public class AddDtrBarEntrySetting(ImGuiService imGuiService) : BooleanFormField
 
     public override string Key { get; set; } = "AddDtrBarEntry";
 
-    public override string Name { get; set; } = "Add undercut notification to server info bar?";
+    public override string Name { get; set; } = Loc.T("Add undercut notification to server info bar?");
 
     public override string HelpText { get; set; } =
-        "Adds a entry to the server info bar that informs you of the number of items you have for sale that have been undercut.";
+        Loc.T("Adds a entry to the server info bar that informs you of the number of items you have for sale that have been undercut.");
 
     public override string Version { get; } = "1.0.0";
 

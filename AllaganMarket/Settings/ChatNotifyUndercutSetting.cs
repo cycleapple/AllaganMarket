@@ -10,10 +10,10 @@ public class ChatNotifyUndercutSetting(ImGuiService imGuiService)
 
     public override string Key { get; set; } = "ChatNotifyUndercut";
 
-    public override string Name { get; set; } = "Show chat messages on undercut?";
+    public override string Name { get; set; } = Loc.T("Show chat messages on undercut?");
 
     public override string HelpText { get; set; } =
-        "Should a chat message anytime a undercut occurs on an item you are selling?";
+        Loc.T("Should a chat message anytime a undercut occurs on an item you are selling?");
 
     public override string Version { get; } = "1.0.0";
 

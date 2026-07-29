@@ -1,0 +1,814 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name=" (Active)" xml:space="preserve">
+    <value>（使用中）</value>
+  </data>
+  <data name="!, for inequality comparisons" xml:space="preserve">
+    <value>!：不等於比較</value>
+  </data>
+  <data name="&amp;&amp;, search multiple expressions using AND" xml:space="preserve">
+    <value>&amp;&amp;：使用 AND 搜尋多個條件</value>
+  </data>
+  <data name="2 hours ago, finds all entries 2 hours and greater" xml:space="preserve">
+    <value>輸入「2 hours ago」可尋找 2 小時前及更早的所有項目</value>
+  </data>
+  <data name="=, for exact comparisons" xml:space="preserve">
+    <value>=：完全相同比較</value>
+  </data>
+  <data name="&gt;, &gt;=, &lt;, &lt;=, =, for date comparisons" xml:space="preserve">
+    <value>&gt;, &gt;=, &lt;, &lt;=, =：日期比較</value>
+  </data>
+  <data name="&gt;, &gt;=, &lt;, &lt;=, =, for numeric comparisons" xml:space="preserve">
+    <value>&gt;, &gt;=, &lt;, &lt;=, =：數值比較</value>
+  </data>
+  <data name="Activate features that integrate directly into the game." xml:space="preserve">
+    <value>啟用直接整合至遊戲介面的功能。</value>
+  </data>
+  <data name="Activate overlays that will appear when certain parts of the game UI are present." xml:space="preserve">
+    <value>在特定遊戲介面出現時顯示對應的浮動視窗。</value>
+  </data>
+  <data name="Active Retainers (from RetainerManager)" xml:space="preserve">
+    <value>目前僱員（來自 RetainerManager）</value>
+  </data>
+  <data name="Add title menu button?" xml:space="preserve">
+    <value>新增標題畫面按鈕？</value>
+  </data>
+  <data name="Add undercut notification to server info bar?" xml:space="preserve">
+    <value>在伺服器資訊列顯示壓價通知？</value>
+  </data>
+  <data name="Adds a entry to the server info bar that informs you of the number of items you have for sale that have been undercut." xml:space="preserve">
+    <value>在伺服器資訊列顯示目前遭到壓價的上架物品數量。</value>
+  </data>
+  <data name="Alias for /allaganmarket." xml:space="preserve">
+    <value>/allaganmarket 的別名。</value>
+  </data>
+  <data name="All Retainers/Worlds" xml:space="preserve">
+    <value>所有僱員／世界</value>
+  </data>
+  <data name="All Together" xml:space="preserve">
+    <value>全部合併</value>
+  </data>
+  <data name="All retainers" xml:space="preserve">
+    <value>所有僱員</value>
+  </data>
+  <data name="Allagan Market" xml:space="preserve">
+    <value>Allagan Market</value>
+  </data>
+  <data name="Allagan Market - Configuration" xml:space="preserve">
+    <value>Allagan Market－設定</value>
+  </data>
+  <data name="Allagan Market - Wizard" xml:space="preserve">
+    <value>Allagan Market－設定精靈</value>
+  </data>
+  <data name="Allagan Market(Undercuts)" xml:space="preserve">
+    <value>Allagan Market（壓價）</value>
+  </data>
+  <data name="Any" xml:space="preserve">
+    <value>不限品質</value>
+  </data>
+  <data name="Are you sure you want to delete this character? Any retainers owned by this retainer will also be removed." xml:space="preserve">
+    <value>確定要刪除此角色嗎？該角色擁有的所有僱員也會一併移除。</value>
+  </data>
+  <data name="Arrow: Collapse/Uncollapse" xml:space="preserve">
+    <value>箭頭：收合／展開</value>
+  </data>
+  <data name="As you have undercut fallback on, the undercut was calculated based off the lowest NQ item." xml:space="preserve">
+    <value>已啟用壓價備援，因此壓價金額是依普通品質物品的最低價計算。</value>
+  </data>
+  <data name="Available" xml:space="preserve">
+    <value>可用</value>
+  </data>
+  <data name="Avg. Sale Price" xml:space="preserve">
+    <value>平均售價</value>
+  </data>
+  <data name="By Item" xml:space="preserve">
+    <value>依物品</value>
+  </data>
+  <data name="By Retainer" xml:space="preserve">
+    <value>依僱員</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="Character Id" xml:space="preserve">
+    <value>角色 ID</value>
+  </data>
+  <data name="Chat" xml:space="preserve">
+    <value>聊天</value>
+  </data>
+  <data name="Chat Notifications" xml:space="preserve">
+    <value>聊天通知</value>
+  </data>
+  <data name="Checking this box will round the recommended price UP from the undercut calcuations. You might want to do this if you undercut by a larger number and want a visually pleasing result. Leaving the box unchecked will round DOWN." xml:space="preserve">
+    <value>勾選後會將壓價計算所得的建議價格向上取整；若壓價幅度較大且希望價格較整齊，可以啟用此項。未勾選時則向下取整。</value>
+  </data>
+  <data name="Class Job" xml:space="preserve">
+    <value>職業</value>
+  </data>
+  <data name="Class: {0}" xml:space="preserve">
+    <value>職業：{0}</value>
+  </data>
+  <data name="ClassJob Id" xml:space="preserve">
+    <value>職業 ID</value>
+  </data>
+  <data name="Clear search" xml:space="preserve">
+    <value>清除搜尋</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>關閉</value>
+  </data>
+  <data name="Configuration" xml:space="preserve">
+    <value>設定</value>
+  </data>
+  <data name="Configure New Features" xml:space="preserve">
+    <value>設定新功能</value>
+  </data>
+  <data name="Confirm" xml:space="preserve">
+    <value>確認</value>
+  </data>
+  <data name="Copy to Game" xml:space="preserve">
+    <value>複製到遊戲</value>
+  </data>
+  <data name="Currently Selling" xml:space="preserve">
+    <value>出售中</value>
+  </data>
+  <data name="Date Range" xml:space="preserve">
+    <value>日期範圍</value>
+  </data>
+  <data name="Delete Character" xml:space="preserve">
+    <value>刪除角色</value>
+  </data>
+  <data name="Delete Character?" xml:space="preserve">
+    <value>刪除角色？</value>
+  </data>
+  <data name="Delete Sold Item" xml:space="preserve">
+    <value>刪除銷售記錄</value>
+  </data>
+  <data name="Display Order" xml:space="preserve">
+    <value>顯示順序</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>編輯</value>
+  </data>
+  <data name="Empty" xml:space="preserve">
+    <value>空白</value>
+  </data>
+  <data name="Empty Slot" xml:space="preserve">
+    <value>空欄位</value>
+  </data>
+  <data name="Enable Verbose Logging" xml:space="preserve">
+    <value>啟用詳細記錄</value>
+  </data>
+  <data name="Export" xml:space="preserve">
+    <value>匯出</value>
+  </data>
+  <data name="Export Current Sales" xml:space="preserve">
+    <value>匯出目前上架資料</value>
+  </data>
+  <data name="Export Current Sales (Filtered)" xml:space="preserve">
+    <value>匯出目前篩選後的上架資料</value>
+  </data>
+  <data name="Export History (CSV)" xml:space="preserve">
+    <value>匯出銷售歷史（CSV）</value>
+  </data>
+  <data name="Export History (Filtered)" xml:space="preserve">
+    <value>匯出篩選後的銷售歷史</value>
+  </data>
+  <data name="Export Sales Summary (CSV)" xml:space="preserve">
+    <value>匯出銷售摘要（CSV）</value>
+  </data>
+  <data name="Export Sales Summary (Filtered)" xml:space="preserve">
+    <value>匯出篩選後的銷售摘要</value>
+  </data>
+  <data name="Features" xml:space="preserve">
+    <value>功能</value>
+  </data>
+  <data name="File" xml:space="preserve">
+    <value>檔案</value>
+  </data>
+  <data name="Filter Name (Active)" xml:space="preserve">
+    <value>篩選名稱（目前）</value>
+  </data>
+  <data name="Filter Name (Stored)" xml:space="preserve">
+    <value>篩選名稱（已儲存）</value>
+  </data>
+  <data name="Filter WorldId (Stored)" xml:space="preserve">
+    <value>篩選世界 ID（已儲存）</value>
+  </data>
+  <data name="Filters:" xml:space="preserve">
+    <value>篩選：</value>
+  </data>
+  <data name="Game Integrations" xml:space="preserve">
+    <value>遊戲整合</value>
+  </data>
+  <data name="General" xml:space="preserve">
+    <value>一般</value>
+  </data>
+  <data name="Gil" xml:space="preserve">
+    <value>Gil</value>
+  </data>
+  <data name="Grid" xml:space="preserve">
+    <value>網格</value>
+  </data>
+  <data name="Group by " xml:space="preserve">
+    <value>分組依據：</value>
+  </data>
+  <data name="Group undercut messages by?" xml:space="preserve">
+    <value>壓價訊息的分組方式？</value>
+  </data>
+  <data name="HQ Only" xml:space="preserve">
+    <value>僅 HQ</value>
+  </data>
+  <data name="Highlight retainer list?" xml:space="preserve">
+    <value>標示僱員列表？</value>
+  </data>
+  <data name="Highlight retainer sell list?" xml:space="preserve">
+    <value>標示僱員出售列表？</value>
+  </data>
+  <data name="Highlighting" xml:space="preserve">
+    <value>醒目標示</value>
+  </data>
+  <data name="How much the item was undercut by." xml:space="preserve">
+    <value>此物品遭壓價的金額。</value>
+  </data>
+  <data name="How should the sales/sold tabs be laid out, in a grid or in a list?" xml:space="preserve">
+    <value>上架與售出分頁要使用網格還是清單排列？</value>
+  </data>
+  <data name="How should undercuts be handled?" xml:space="preserve">
+    <value>設定壓價的處理方式。</value>
+  </data>
+  <data name="Icon" xml:space="preserve">
+    <value>圖示</value>
+  </data>
+  <data name="If `Show chat message for undercuts on login` is enabled, which chat channel should these messages be directed to?" xml:space="preserve">
+    <value>啟用「登入時顯示壓價聊天訊息」後，訊息要傳送至哪個聊天頻道？</value>
+  </data>
+  <data name="If `Show chat messages on sale of item` is enabled, which chat channel should these messages be directed to?" xml:space="preserve">
+    <value>啟用「物品售出時顯示聊天訊息」後，訊息要傳送至哪個聊天頻道？</value>
+  </data>
+  <data name="If `Show chat messages on undercut` is enabled, which chat channel should these messages be directed to?" xml:space="preserve">
+    <value>啟用「遭到壓價時顯示聊天訊息」後，訊息要傳送至哪個聊天頻道？</value>
+  </data>
+  <data name="If chat messages are enabled for undercuts, should undercuts on active characters be shown or all retainers?" xml:space="preserve">
+    <value>啟用壓價聊天訊息時，要顯示目前角色還是所有僱員的壓價資訊？</value>
+  </data>
+  <data name="Individually" xml:space="preserve">
+    <value>逐筆顯示</value>
+  </data>
+  <data name="Is HQ?" xml:space="preserve">
+    <value>是否 HQ？</value>
+  </data>
+  <data name="Is the item high quality?" xml:space="preserve">
+    <value>物品是否為高品質？</value>
+  </data>
+  <data name="Is the retainer overlay currently collapsed?" xml:space="preserve">
+    <value>僱員浮動視窗目前是否收合？</value>
+  </data>
+  <data name="IsHq" xml:space="preserve">
+    <value>是否 HQ</value>
+  </data>
+  <data name="It looks like you opened your retainer before this plugin loaded. Please go back to the retainer list and reopen the retainer. The only time this happens is when the plugin is updated or you have just installed the plugin." xml:space="preserve">
+    <value>你似乎在此外掛載入前就開啟了僱員介面。請返回僱員列表後重新開啟僱員；此外掛剛更新或安裝時可能會發生此情況。</value>
+  </data>
+  <data name="Item Count" xml:space="preserve">
+    <value>物品數量</value>
+  </data>
+  <data name="Item Sold" xml:space="preserve">
+    <value>物品售出</value>
+  </data>
+  <data name="ItemId" xml:space="preserve">
+    <value>物品 ID</value>
+  </data>
+  <data name="Ko-Fi" xml:space="preserve">
+    <value>Ko-fi</value>
+  </data>
+  <data name="Last Update" xml:space="preserve">
+    <value>最後更新</value>
+  </data>
+  <data name="LastUpdated" xml:space="preserve">
+    <value>最後更新</value>
+  </data>
+  <data name="Latest Data:" xml:space="preserve">
+    <value>最新資料：</value>
+  </data>
+  <data name="Left Click: Select/Unselect" xml:space="preserve">
+    <value>左鍵：選取／取消選取</value>
+  </data>
+  <data name="Level" xml:space="preserve">
+    <value>等級</value>
+  </data>
+  <data name="Level: {0}" xml:space="preserve">
+    <value>等級：{0}</value>
+  </data>
+  <data name="List" xml:space="preserve">
+    <value>清單</value>
+  </data>
+  <data name="Listed At" xml:space="preserve">
+    <value>上架時間</value>
+  </data>
+  <data name="Listed At: " xml:space="preserve">
+    <value>上架時間：</value>
+  </data>
+  <data name="Listed: {0}" xml:space="preserve">
+    <value>上架：{0}</value>
+  </data>
+  <data name="Main Window" xml:space="preserve">
+    <value>主視窗</value>
+  </data>
+  <data name="Mark all visible sale items as updated" xml:space="preserve">
+    <value>將所有可見的上架物品標記為已更新</value>
+  </data>
+  <data name="Mark as Updated" xml:space="preserve">
+    <value>標記為已更新</value>
+  </data>
+  <data name="Market Cache Debugger" xml:space="preserve">
+    <value>市場快取偵錯</value>
+  </data>
+  <data name="Market Item Count" xml:space="preserve">
+    <value>市場物品數量</value>
+  </data>
+  <data name="Matches Quality" xml:space="preserve">
+    <value>相同品質</value>
+  </data>
+  <data name="Matching Quality" xml:space="preserve">
+    <value>相同品質</value>
+  </data>
+  <data name="Misc Features" xml:space="preserve">
+    <value>其他功能</value>
+  </data>
+  <data name="Miscellaneous features that improve your overall experience." xml:space="preserve">
+    <value>改善整體使用體驗的其他功能。</value>
+  </data>
+  <data name="More Information" xml:space="preserve">
+    <value>更多資訊</value>
+  </data>
+  <data name="N/A" xml:space="preserve">
+    <value>不適用</value>
+  </data>
+  <data name="NQ Only" xml:space="preserve">
+    <value>僅 NQ</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>名稱</value>
+  </data>
+  <data name="Name: " xml:space="preserve">
+    <value>名稱：</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>否</value>
+  </data>
+  <data name="No Data" xml:space="preserve">
+    <value>無資料</value>
+  </data>
+  <data name="No characters found. Please login." xml:space="preserve">
+    <value>找不到角色資料，請登入遊戲。</value>
+  </data>
+  <data name="No items left to update." xml:space="preserve">
+    <value>沒有需要更新的物品。</value>
+  </data>
+  <data name="No retainers left to update." xml:space="preserve">
+    <value>沒有需要更新的僱員。</value>
+  </data>
+  <data name="No sales tracked yet, please visit a retainer to perform an initial scan on their sales." xml:space="preserve">
+    <value>尚未追蹤任何銷售資料，請開啟僱員介面以執行首次掃描。</value>
+  </data>
+  <data name="No worlds found. Please login." xml:space="preserve">
+    <value>找不到世界資料，請登入遊戲。</value>
+  </data>
+  <data name="Only undercuts on active character&#x27;s retainers" xml:space="preserve">
+    <value>僅目前角色的僱員</value>
+  </data>
+  <data name="Open Crafting Log" xml:space="preserve">
+    <value>開啟製作筆記</value>
+  </data>
+  <data name="Open the Allagan Market configuration window." xml:space="preserve">
+    <value>開啟 Allagan Market 設定視窗。</value>
+  </data>
+  <data name="Open the Allagan Market main window." xml:space="preserve">
+    <value>開啟 Allagan Market 主視窗。</value>
+  </data>
+  <data name="Overlays" xml:space="preserve">
+    <value>浮動視窗</value>
+  </data>
+  <data name="OwnPrice" xml:space="preserve">
+    <value>自己的價格</value>
+  </data>
+  <data name="Owner Id" xml:space="preserve">
+    <value>擁有者 ID</value>
+  </data>
+  <data name="Please login." xml:space="preserve">
+    <value>請登入遊戲。</value>
+  </data>
+  <data name="Provides a groupable list of items you have sold over a given period." xml:space="preserve">
+    <value>依指定期間提供可分組的已售出物品清單。</value>
+  </data>
+  <data name="Quantity" xml:space="preserve">
+    <value>數量</value>
+  </data>
+  <data name="Rec. Price" xml:space="preserve">
+    <value>建議價格</value>
+  </data>
+  <data name="Rec. Unit Price: " xml:space="preserve">
+    <value>建議單價：</value>
+  </data>
+  <data name="Reconfigure All Features" xml:space="preserve">
+    <value>重新設定所有功能</value>
+  </data>
+  <data name="Report a Issue" xml:space="preserve">
+    <value>回報問題</value>
+  </data>
+  <data name="Retainer" xml:space="preserve">
+    <value>僱員</value>
+  </data>
+  <data name="Retainer Debugger" xml:space="preserve">
+    <value>僱員偵錯</value>
+  </data>
+  <data name="Retainer Id" xml:space="preserve">
+    <value>僱員 ID</value>
+  </data>
+  <data name="Retainer List Overlay" xml:space="preserve">
+    <value>僱員列表浮動視窗</value>
+  </data>
+  <data name="Retainer Order" xml:space="preserve">
+    <value>僱員順序</value>
+  </data>
+  <data name="Retainer Overlay - Collapsed?" xml:space="preserve">
+    <value>僱員浮動視窗－已收合？</value>
+  </data>
+  <data name="Retainer Sell List Overlay" xml:space="preserve">
+    <value>僱員出售列表浮動視窗</value>
+  </data>
+  <data name="Retainer Sell Overlay" xml:space="preserve">
+    <value>僱員定價浮動視窗</value>
+  </data>
+  <data name="RetainerManager not available." xml:space="preserve">
+    <value>RetainerManager 無法使用。</value>
+  </data>
+  <data name="Right Click: Menu" xml:space="preserve">
+    <value>右鍵：選單</value>
+  </data>
+  <data name="Round the recommended price to the nearest multiple of" xml:space="preserve">
+    <value>將建議價格取整至最接近的倍數</value>
+  </data>
+  <data name="Round up or down" xml:space="preserve">
+    <value>向上或向下取整</value>
+  </data>
+  <data name="Sale History" xml:space="preserve">
+    <value>出售記錄</value>
+  </data>
+  <data name="Sale Item Table" xml:space="preserve">
+    <value>上架物品表格</value>
+  </data>
+  <data name="Sale Summary" xml:space="preserve">
+    <value>出售摘要</value>
+  </data>
+  <data name="Sale Summary Date Range" xml:space="preserve">
+    <value>銷售摘要日期範圍</value>
+  </data>
+  <data name="Sale Summary Group" xml:space="preserve">
+    <value>銷售摘要分組</value>
+  </data>
+  <data name="Sale Summary Time Span" xml:space="preserve">
+    <value>銷售摘要期間</value>
+  </data>
+  <data name="Search:" xml:space="preserve">
+    <value>搜尋：</value>
+  </data>
+  <data name="Select a save location" xml:space="preserve">
+    <value>選擇儲存位置</value>
+  </data>
+  <data name="Selling" xml:space="preserve">
+    <value>上架數量</value>
+  </data>
+  <data name="Sets the date range for the sale summary results." xml:space="preserve">
+    <value>設定銷售摘要結果的日期範圍。</value>
+  </data>
+  <data name="Should a button to open Allagan Market be added to Dalamud&#x27;s title menu?" xml:space="preserve">
+    <value>是否在 Dalamud 標題畫面選單新增開啟 Allagan Market 的按鈕？</value>
+  </data>
+  <data name="Should a chat message anytime a undercut occurs on an item you are selling?" xml:space="preserve">
+    <value>販售中的物品遭到壓價時，是否顯示聊天訊息？</value>
+  </data>
+  <data name="Should the retainer list be highlighted for undercuts and updates?" xml:space="preserve">
+    <value>是否在僱員列表標示壓價與待更新狀態？</value>
+  </data>
+  <data name="Should the retainer sell list be highlighted for undercuts and updates?" xml:space="preserve">
+    <value>是否在僱員出售列表標示壓價與待更新狀態？</value>
+  </data>
+  <data name="Show Retainer Overlay?" xml:space="preserve">
+    <value>顯示僱員浮動視窗？</value>
+  </data>
+  <data name="Show chat message for undercuts on login - chat type" xml:space="preserve">
+    <value>登入時顯示壓價訊息－聊天類型</value>
+  </data>
+  <data name="Show chat message for undercuts on login?" xml:space="preserve">
+    <value>登入時顯示壓價聊天訊息？</value>
+  </data>
+  <data name="Show chat messages for undercuts for which characters?" xml:space="preserve">
+    <value>顯示哪些角色的壓價聊天訊息？</value>
+  </data>
+  <data name="Show chat messages on sale of item - chat type" xml:space="preserve">
+    <value>物品售出訊息－聊天類型</value>
+  </data>
+  <data name="Show chat messages on sale of item?" xml:space="preserve">
+    <value>物品售出時顯示聊天訊息？</value>
+  </data>
+  <data name="Show chat messages on undercut - chat type" xml:space="preserve">
+    <value>壓價訊息－聊天類型</value>
+  </data>
+  <data name="Show chat messages on undercut?" xml:space="preserve">
+    <value>遭到壓價時顯示聊天訊息？</value>
+  </data>
+  <data name="Show empty slots:" xml:space="preserve">
+    <value>顯示空欄位：</value>
+  </data>
+  <data name="Show/hide items that need to be updated." xml:space="preserve">
+    <value>顯示／隱藏需要更新的物品。</value>
+  </data>
+  <data name="Show/hide retainers that need to be updated." xml:space="preserve">
+    <value>顯示／隱藏需要更新的僱員。</value>
+  </data>
+  <data name="Shows the Allagan Market configuration window." xml:space="preserve">
+    <value>開啟 Allagan Market 設定視窗。</value>
+  </data>
+  <data name="Shows the Allagan Market debug window." xml:space="preserve">
+    <value>開啟 Allagan Market 偵錯視窗。</value>
+  </data>
+  <data name="Shows the Allagan Market main window." xml:space="preserve">
+    <value>開啟 Allagan Market 主視窗。</value>
+  </data>
+  <data name="Since Today" xml:space="preserve">
+    <value>自今日起</value>
+  </data>
+  <data name="Slot" xml:space="preserve">
+    <value>欄位</value>
+  </data>
+  <data name="Sold At" xml:space="preserve">
+    <value>售出時間</value>
+  </data>
+  <data name="Sold Item Table" xml:space="preserve">
+    <value>售出物品表格</value>
+  </data>
+  <data name="Sold on {0}" xml:space="preserve">
+    <value>售出時間：{0}</value>
+  </data>
+  <data name="Source: {0}" xml:space="preserve">
+    <value>來源：{0}</value>
+  </data>
+  <data name="Sourced From: {0}" xml:space="preserve">
+    <value>資料來源：{0}</value>
+  </data>
+  <data name="Stale Pricing Period" xml:space="preserve">
+    <value>價格過期時間</value>
+  </data>
+  <data name="Stale Pricing?" xml:space="preserve">
+    <value>價格已過期？</value>
+  </data>
+  <data name="Stored Retainers (from CharacterMonitorService)" xml:space="preserve">
+    <value>已儲存的僱員（來自 CharacterMonitorService）</value>
+  </data>
+  <data name="Tax " xml:space="preserve">
+    <value>稅額 </value>
+  </data>
+  <data name="The average sale price of this item." xml:space="preserve">
+    <value>此物品的平均售價。</value>
+  </data>
+  <data name="The date the item was listed on the market." xml:space="preserve">
+    <value>物品刊登至市場布告板的時間。</value>
+  </data>
+  <data name="The icon of the item" xml:space="preserve">
+    <value>物品圖示</value>
+  </data>
+  <data name="The name of the item" xml:space="preserve">
+    <value>物品名稱</value>
+  </data>
+  <data name="The name of the retainer" xml:space="preserve">
+    <value>僱員名稱</value>
+  </data>
+  <data name="The plugin has been reloaded since entering a retainer, please back out and load back into the retainer." xml:space="preserve">
+    <value>外掛在進入僱員介面後曾重新載入，請退出並重新開啟僱員介面。</value>
+  </data>
+  <data name="The plugin will mark items in yellow once their pricing is considered to be stale. How often should the plugin ask you to price check/update the item in minutes? Viewing the current offerings for an item or updating the price of an update will reset this counter." xml:space="preserve">
+    <value>價格資料過期時，外掛會以黃色標示物品。請設定每隔幾分鐘提醒檢查或更新價格；查看目前上架資訊或更新價格後會重設計時。</value>
+  </data>
+  <data name="The quantity of item being sold." xml:space="preserve">
+    <value>販售的物品數量。</value>
+  </data>
+  <data name="The total amount of the sale item/sold item" xml:space="preserve">
+    <value>上架或售出物品的總金額</value>
+  </data>
+  <data name="The total tax paid on the item" xml:space="preserve">
+    <value>此物品支付的稅額總計</value>
+  </data>
+  <data name="The unit price of the item being sold." xml:space="preserve">
+    <value>販售物品的單價。</value>
+  </data>
+  <data name="The world" xml:space="preserve">
+    <value>所在世界</value>
+  </data>
+  <data name="These are the items that you have sold." xml:space="preserve">
+    <value>這些是已售出的物品。</value>
+  </data>
+  <data name="These are the items you currently have for sale." xml:space="preserve">
+    <value>這些是目前上架販售的物品。</value>
+  </data>
+  <data name="This will show a message when a sale of an item occurs. At present, this only happens when you view a retainer and AM is able to calculate if the item is sold." xml:space="preserve">
+    <value>物品售出時顯示訊息。目前只有在查看僱員，且 Allagan Market 能判定物品已售出時才會觸發。</value>
+  </data>
+  <data name="Toggle highlighting on the retainer list." xml:space="preserve">
+    <value>切換僱員列表的醒目標示。</value>
+  </data>
+  <data name="Toggle search bar" xml:space="preserve">
+    <value>切換搜尋列</value>
+  </data>
+  <data name="Total " xml:space="preserve">
+    <value>總計 </value>
+  </data>
+  <data name="Town" xml:space="preserve">
+    <value>城鎮</value>
+  </data>
+  <data name="Type" xml:space="preserve">
+    <value>類型</value>
+  </data>
+  <data name="Undercut" xml:space="preserve">
+    <value>壓價</value>
+  </data>
+  <data name="Undercut Settings:" xml:space="preserve">
+    <value>壓價設定：</value>
+  </data>
+  <data name="Undercut amount" xml:space="preserve">
+    <value>壓價金額</value>
+  </data>
+  <data name="Undercut by" xml:space="preserve">
+    <value>壓價差額</value>
+  </data>
+  <data name="Undercut comparison" xml:space="preserve">
+    <value>壓價比較方式</value>
+  </data>
+  <data name="Undercut fallback" xml:space="preserve">
+    <value>壓價備援</value>
+  </data>
+  <data name="Undercut?" xml:space="preserve">
+    <value>遭到壓價？</value>
+  </data>
+  <data name="Undercuts" xml:space="preserve">
+    <value>壓價</value>
+  </data>
+  <data name="Undercuts - General" xml:space="preserve">
+    <value>壓價－一般</value>
+  </data>
+  <data name="Undercuts - On Login" xml:space="preserve">
+    <value>壓價－登入時</value>
+  </data>
+  <data name="Undercutting" xml:space="preserve">
+    <value>壓價</value>
+  </data>
+  <data name="Unit Price" xml:space="preserve">
+    <value>單價</value>
+  </data>
+  <data name="Unit Price HQ: {0}" xml:space="preserve">
+    <value>高品質單價：{0}</value>
+  </data>
+  <data name="Unit Price NQ: {0}" xml:space="preserve">
+    <value>普通品質單價：{0}</value>
+  </data>
+  <data name="UnitCost" xml:space="preserve">
+    <value>單價</value>
+  </data>
+  <data name="Unknown" xml:space="preserve">
+    <value>未知</value>
+  </data>
+  <data name="Unknown Character" xml:space="preserve">
+    <value>未知角色</value>
+  </data>
+  <data name="Unknown Character/Retainer" xml:space="preserve">
+    <value>未知角色／僱員</value>
+  </data>
+  <data name="Unknown Class" xml:space="preserve">
+    <value>未知職業</value>
+  </data>
+  <data name="Unknown Item" xml:space="preserve">
+    <value>未知物品</value>
+  </data>
+  <data name="Unknown World" xml:space="preserve">
+    <value>未知世界</value>
+  </data>
+  <data name="Updated At" xml:space="preserve">
+    <value>更新時間</value>
+  </data>
+  <data name="Updated At: " xml:space="preserve">
+    <value>更新時間：</value>
+  </data>
+  <data name="Updated: {0}" xml:space="preserve">
+    <value>更新：{0}</value>
+  </data>
+  <data name="Use Default" xml:space="preserve">
+    <value>使用預設值</value>
+  </data>
+  <data name="Value" xml:space="preserve">
+    <value>數值</value>
+  </data>
+  <data name="Venture Id" xml:space="preserve">
+    <value>探險 ID</value>
+  </data>
+  <data name="View" xml:space="preserve">
+    <value>檢視</value>
+  </data>
+  <data name="What messages should be displayed in chat?" xml:space="preserve">
+    <value>設定要在聊天視窗顯示的訊息。</value>
+  </data>
+  <data name="What to group the sale summary by" xml:space="preserve">
+    <value>銷售摘要的分組依據</value>
+  </data>
+  <data name="When determining if an item is undercut, which results should be compared against? This can be changed individually per item. Items that cannot be HQ will ignore this setting." xml:space="preserve">
+    <value>判斷物品是否遭到壓價時，要比較哪些品質的結果？此設定可針對各物品個別變更；無法成為 HQ 的物品會忽略此設定。</value>
+  </data>
+  <data name="When determining if you have been undercut and there are no listings for the quality selected, should AT fallback to using a price from the other quality. i.e. there are no HQ entries, it will use NQ entries instead. " xml:space="preserve">
+    <value>判斷是否遭到壓價時，若所選品質沒有上架資料，是否改用另一品質的價格？例如沒有 HQ 資料時改用 NQ 資料。</value>
+  </data>
+  <data name="When displaying a recommended undercut price, how many gil should we minus from the lowest price to come to come to the recommended price?" xml:space="preserve">
+    <value>計算建議壓價時，要從最低價格減去多少 Gil？</value>
+  </data>
+  <data name="When displaying a recommended undercut price, this indicates the nearest multiple to which the recommended price is rounded to. Set to 1 if you don&#x27;t want to round off the recommended pricing." xml:space="preserve">
+    <value>設定建議價格要取整至最接近的倍數；若不想取整請設為 1。</value>
+  </data>
+  <data name="When enabled and you are at a retainer bell, a overlay will display on the right hand side of the retainer list, sales list and when pricing items." xml:space="preserve">
+    <value>啟用後，使用傳喚鈴時會在僱員列表、出售列表及物品定價介面的右側顯示浮動視窗。</value>
+  </data>
+  <data name="When multiple undercuts occur, how should these be grouped together?" xml:space="preserve">
+    <value>同時發生多筆壓價時，要如何分組顯示？</value>
+  </data>
+  <data name="When searching the following operators can be used to compare: " xml:space="preserve">
+    <value>搜尋時可使用以下運算子：</value>
+  </data>
+  <data name="When the item was last updated by either confirming the item is not undercut or by adjusting the price to be the lowest." xml:space="preserve">
+    <value>最後確認物品未遭壓價，或將價格調整為最低價的時間。</value>
+  </data>
+  <data name="When the item was sold." xml:space="preserve">
+    <value>物品售出的時間。</value>
+  </data>
+  <data name="When you first login should the plugin notify you of any undercuts that have occurred on your items?" xml:space="preserve">
+    <value>登入時是否通知你物品遭到壓價？</value>
+  </data>
+  <data name="Wizard" xml:space="preserve">
+    <value>設定精靈</value>
+  </data>
+  <data name="World" xml:space="preserve">
+    <value>世界</value>
+  </data>
+  <data name="World Id" xml:space="preserve">
+    <value>世界 ID</value>
+  </data>
+  <data name="WorldId" xml:space="preserve">
+    <value>世界 ID</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>是</value>
+  </data>
+  <data name="You currently have {0} undercut items" xml:space="preserve">
+    <value>目前有 {0} 件物品遭到壓價</value>
+  </data>
+  <data name="You have been undercut by {0} for {1}" xml:space="preserve">
+    <value>{1} 已被壓價 {0}</value>
+  </data>
+  <data name="You have been undercut by {0} on {1} {2} you are selling." xml:space="preserve">
+    <value>你出售的 {1} 個 {2} 已被壓價 {0}。</value>
+  </data>
+  <data name="You have been undercut on this item by {0} {1}" xml:space="preserve">
+    <value>此物品已被壓價 {0} {1}</value>
+  </data>
+  <data name="You have been undercut on {0} items that {1} is selling." xml:space="preserve">
+    <value>僱員 {1} 出售的 {0} 件物品遭到壓價。</value>
+  </data>
+  <data name="You have been undercut on {0} items." xml:space="preserve">
+    <value>有 {0} 件物品遭到壓價。</value>
+  </data>
+  <data name="You sold {0} {1} for {2}" xml:space="preserve">
+    <value>你以 {2} 售出 {0} 個 {1}</value>
+  </data>
+  <data name="undercut" xml:space="preserve">
+    <value>筆壓價</value>
+  </data>
+  <data name="undercuts" xml:space="preserve">
+    <value>筆壓價</value>
+  </data>
+  <data name="{0} at {1} ({2})" xml:space="preserve">
+    <value>{0} 個，單價 {1}（總計 {2}）</value>
+  </data>
+  <data name="{0} has {1} stored." xml:space="preserve">
+    <value>{0} 持有 {1}。</value>
+  </data>
+  <data name="{0} items for sale on {1} worth {2}" xml:space="preserve">
+    <value>{1} 有 {0} 件出售中物品，總值 {2}</value>
+  </data>
+  <data name="{0} items sold on {1} worth {2}" xml:space="preserve">
+    <value>{1} 已售出 {0} 件物品，總值 {2}</value>
+  </data>
+  <data name="||, search multiple expressions using OR" xml:space="preserve">
+    <value>||：使用 OR 搜尋多個條件</value>
+  </data>
+</root>

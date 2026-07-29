@@ -19,7 +19,7 @@ public class TaxColumn(NumberFormatInfo gilFormat, ImGuiService imGuiService, St
 
     public override string Key { get; set; } = "Tax";
 
-    public override string Name { get; set; } = "Tax " + SeIconChar.Gil.ToIconString();
+    public override string Name { get; set; } = Loc.T("Tax ") + SeIconChar.Gil.ToIconString();
 
     public override string? RenderName { get; set; } = null;
 
@@ -31,7 +31,7 @@ public class TaxColumn(NumberFormatInfo gilFormat, ImGuiService imGuiService, St
 
     public override string EmptyText { get; set; } = string.Empty;
 
-    public override string HelpText { get; set; } = "The total tax paid on the item";
+    public override string HelpText { get; set; } = Loc.T("The total tax paid on the item");
 
     public override string Version { get; } = "1.0.0";
 

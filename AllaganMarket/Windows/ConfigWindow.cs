@@ -44,7 +44,7 @@ public class ConfigWindow : ExtendedWindow, IDisposable
         SettingTypeConfiguration settingTypeConfiguration,
         IEnumerable<SettingPage> settingPages,
         IPluginLog pluginLog)
-        : base(mediatorService, imGuiService, "Allagan Market - Configuration")
+        : base(mediatorService, imGuiService, Loc.T("Allagan Market - Configuration"))
     {
         this.SizeConstraints = new WindowSizeConstraints
         {
@@ -83,19 +83,19 @@ public class ConfigWindow : ExtendedWindow, IDisposable
     {
         if (ImGui.BeginMenuBar())
         {
-            if (ImGui.BeginMenu("File"))
+            if (ImGui.BeginMenu(Loc.T("File")))
             {
-                if (ImGui.MenuItem("Main Window"))
+                if (ImGui.MenuItem(Loc.T("Main Window")))
                 {
                     this.MediatorService.Publish(new OpenWindowMessage(typeof(MainWindow)));
                 }
 
-                if (ImGui.MenuItem("Report a Issue"))
+                if (ImGui.MenuItem(Loc.T("Report a Issue")))
                 {
                     "https://github.com/Critical-Impact/AllaganMarket".OpenBrowser();
                 }
 
-                if (ImGui.MenuItem("Enable Verbose Logging", "", this.pluginLog.MinimumLogLevel == LogEventLevel.Verbose))
+                if (ImGui.MenuItem(Loc.T("Enable Verbose Logging"), "", this.pluginLog.MinimumLogLevel == LogEventLevel.Verbose))
                 {
                     if (this.pluginLog.MinimumLogLevel == LogEventLevel.Verbose)
                     {
@@ -107,12 +107,12 @@ public class ConfigWindow : ExtendedWindow, IDisposable
                     }
                 }
 
-                if (ImGui.MenuItem("Ko-Fi"))
+                if (ImGui.MenuItem(Loc.T("Ko-Fi")))
                 {
                     "https://ko-fi.com/critical_impact".OpenBrowser();
                 }
 
-                if (ImGui.MenuItem("Close"))
+                if (ImGui.MenuItem(Loc.T("Close")))
                 {
                     this.IsOpen = false;
                 }
@@ -120,18 +120,18 @@ public class ConfigWindow : ExtendedWindow, IDisposable
                 ImGui.EndMenu();
             }
 
-            if (ImGui.BeginMenu("Wizard"))
+            if (ImGui.BeginMenu(Loc.T("Wizard")))
             {
                 var hasNewFeatures = this.configurationWizardService.HasNewFeatures;
                 using var disabled = ImRaii.Disabled(!hasNewFeatures);
-                if (ImGui.MenuItem("Configure New Features"))
+                if (ImGui.MenuItem(Loc.T("Configure New Features")))
                 {
                     this.MediatorService.Publish(new OpenWindowMessage(typeof(WizardWindow)));
                 }
 
                 disabled.Dispose();
 
-                if (ImGui.MenuItem("Reconfigure All Features"))
+                if (ImGui.MenuItem(Loc.T("Reconfigure All Features")))
                 {
                     this.configurationWizardService.ClearFeaturesSeen();
                     this.MediatorService.Publish(new OpenWindowMessage(typeof(WizardWindow)));
@@ -146,7 +146,7 @@ public class ConfigWindow : ExtendedWindow, IDisposable
         this.verticalSplitter.Draw(
             () =>
             {
-                ImGui.Text("Configuration");
+                ImGui.Text(Loc.T("Configuration"));
                 ImGui.Separator();
                 foreach (var group in this.settings)
                 {

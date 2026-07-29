@@ -15,7 +15,7 @@ public class ViewModeSetting(ImGuiService imGuiService) : EnumFormField<ViewMode
     public override string Name { get; set; } = "Sales/Sold View Mode";
 
     public override string HelpText { get; set; } =
-        "How should the sales/sold tabs be laid out, in a grid or in a list?";
+        Loc.T("How should the sales/sold tabs be laid out, in a grid or in a list?");
 
     public override string Version { get; } = "1.0.0";
 
@@ -26,8 +26,8 @@ public class ViewModeSetting(ImGuiService imGuiService) : EnumFormField<ViewMode
 
     public override Dictionary<Enum, string> Choices { get; } = new()
     {
-        [ViewMode.Grid] = "Grid",
-        [ViewMode.List] = "List",
+        [ViewMode.Grid] = Loc.T("Grid"),
+        [ViewMode.List] = Loc.T("List"),
     };
 
     public SettingType Type { get; set; } = SettingType.General;

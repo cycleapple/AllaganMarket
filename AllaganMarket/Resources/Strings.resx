@@ -1,0 +1,814 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name=" (Active)" xml:space="preserve">
+    <value> (Active)</value>
+  </data>
+  <data name="!, for inequality comparisons" xml:space="preserve">
+    <value>!, for inequality comparisons</value>
+  </data>
+  <data name="&amp;&amp;, search multiple expressions using AND" xml:space="preserve">
+    <value>&amp;&amp;, search multiple expressions using AND</value>
+  </data>
+  <data name="2 hours ago, finds all entries 2 hours and greater" xml:space="preserve">
+    <value>2 hours ago, finds all entries 2 hours and greater</value>
+  </data>
+  <data name="=, for exact comparisons" xml:space="preserve">
+    <value>=, for exact comparisons</value>
+  </data>
+  <data name="&gt;, &gt;=, &lt;, &lt;=, =, for date comparisons" xml:space="preserve">
+    <value>&gt;, &gt;=, &lt;, &lt;=, =, for date comparisons</value>
+  </data>
+  <data name="&gt;, &gt;=, &lt;, &lt;=, =, for numeric comparisons" xml:space="preserve">
+    <value>&gt;, &gt;=, &lt;, &lt;=, =, for numeric comparisons</value>
+  </data>
+  <data name="Activate features that integrate directly into the game." xml:space="preserve">
+    <value>Activate features that integrate directly into the game.</value>
+  </data>
+  <data name="Activate overlays that will appear when certain parts of the game UI are present." xml:space="preserve">
+    <value>Activate overlays that will appear when certain parts of the game UI are present.</value>
+  </data>
+  <data name="Active Retainers (from RetainerManager)" xml:space="preserve">
+    <value>Active Retainers (from RetainerManager)</value>
+  </data>
+  <data name="Add title menu button?" xml:space="preserve">
+    <value>Add title menu button?</value>
+  </data>
+  <data name="Add undercut notification to server info bar?" xml:space="preserve">
+    <value>Add undercut notification to server info bar?</value>
+  </data>
+  <data name="Adds a entry to the server info bar that informs you of the number of items you have for sale that have been undercut." xml:space="preserve">
+    <value>Adds a entry to the server info bar that informs you of the number of items you have for sale that have been undercut.</value>
+  </data>
+  <data name="Alias for /allaganmarket." xml:space="preserve">
+    <value>Alias for /allaganmarket.</value>
+  </data>
+  <data name="All Retainers/Worlds" xml:space="preserve">
+    <value>All Retainers/Worlds</value>
+  </data>
+  <data name="All Together" xml:space="preserve">
+    <value>All Together</value>
+  </data>
+  <data name="All retainers" xml:space="preserve">
+    <value>All retainers</value>
+  </data>
+  <data name="Allagan Market" xml:space="preserve">
+    <value>Allagan Market</value>
+  </data>
+  <data name="Allagan Market - Configuration" xml:space="preserve">
+    <value>Allagan Market - Configuration</value>
+  </data>
+  <data name="Allagan Market - Wizard" xml:space="preserve">
+    <value>Allagan Market - Wizard</value>
+  </data>
+  <data name="Allagan Market(Undercuts)" xml:space="preserve">
+    <value>Allagan Market(Undercuts)</value>
+  </data>
+  <data name="Any" xml:space="preserve">
+    <value>Any</value>
+  </data>
+  <data name="Are you sure you want to delete this character? Any retainers owned by this retainer will also be removed." xml:space="preserve">
+    <value>Are you sure you want to delete this character? Any retainers owned by this retainer will also be removed.</value>
+  </data>
+  <data name="Arrow: Collapse/Uncollapse" xml:space="preserve">
+    <value>Arrow: Collapse/Uncollapse</value>
+  </data>
+  <data name="As you have undercut fallback on, the undercut was calculated based off the lowest NQ item." xml:space="preserve">
+    <value>As you have undercut fallback on, the undercut was calculated based off the lowest NQ item.</value>
+  </data>
+  <data name="Available" xml:space="preserve">
+    <value>Available</value>
+  </data>
+  <data name="Avg. Sale Price" xml:space="preserve">
+    <value>Avg. Sale Price</value>
+  </data>
+  <data name="By Item" xml:space="preserve">
+    <value>By Item</value>
+  </data>
+  <data name="By Retainer" xml:space="preserve">
+    <value>By Retainer</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="Character Id" xml:space="preserve">
+    <value>Character Id</value>
+  </data>
+  <data name="Chat" xml:space="preserve">
+    <value>Chat</value>
+  </data>
+  <data name="Chat Notifications" xml:space="preserve">
+    <value>Chat Notifications</value>
+  </data>
+  <data name="Checking this box will round the recommended price UP from the undercut calcuations. You might want to do this if you undercut by a larger number and want a visually pleasing result. Leaving the box unchecked will round DOWN." xml:space="preserve">
+    <value>Checking this box will round the recommended price UP from the undercut calcuations. You might want to do this if you undercut by a larger number and want a visually pleasing result. Leaving the box unchecked will round DOWN.</value>
+  </data>
+  <data name="Class Job" xml:space="preserve">
+    <value>Class Job</value>
+  </data>
+  <data name="Class: {0}" xml:space="preserve">
+    <value>Class: {0}</value>
+  </data>
+  <data name="ClassJob Id" xml:space="preserve">
+    <value>ClassJob Id</value>
+  </data>
+  <data name="Clear search" xml:space="preserve">
+    <value>Clear search</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="Configuration" xml:space="preserve">
+    <value>Configuration</value>
+  </data>
+  <data name="Configure New Features" xml:space="preserve">
+    <value>Configure New Features</value>
+  </data>
+  <data name="Confirm" xml:space="preserve">
+    <value>Confirm</value>
+  </data>
+  <data name="Copy to Game" xml:space="preserve">
+    <value>Copy to Game</value>
+  </data>
+  <data name="Currently Selling" xml:space="preserve">
+    <value>Currently Selling</value>
+  </data>
+  <data name="Date Range" xml:space="preserve">
+    <value>Date Range</value>
+  </data>
+  <data name="Delete Character" xml:space="preserve">
+    <value>Delete Character</value>
+  </data>
+  <data name="Delete Character?" xml:space="preserve">
+    <value>Delete Character?</value>
+  </data>
+  <data name="Delete Sold Item" xml:space="preserve">
+    <value>Delete Sold Item</value>
+  </data>
+  <data name="Display Order" xml:space="preserve">
+    <value>Display Order</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="Empty" xml:space="preserve">
+    <value>Empty</value>
+  </data>
+  <data name="Empty Slot" xml:space="preserve">
+    <value>Empty Slot</value>
+  </data>
+  <data name="Enable Verbose Logging" xml:space="preserve">
+    <value>Enable Verbose Logging</value>
+  </data>
+  <data name="Export" xml:space="preserve">
+    <value>Export</value>
+  </data>
+  <data name="Export Current Sales" xml:space="preserve">
+    <value>Export Current Sales</value>
+  </data>
+  <data name="Export Current Sales (Filtered)" xml:space="preserve">
+    <value>Export Current Sales (Filtered)</value>
+  </data>
+  <data name="Export History (CSV)" xml:space="preserve">
+    <value>Export History (CSV)</value>
+  </data>
+  <data name="Export History (Filtered)" xml:space="preserve">
+    <value>Export History (Filtered)</value>
+  </data>
+  <data name="Export Sales Summary (CSV)" xml:space="preserve">
+    <value>Export Sales Summary (CSV)</value>
+  </data>
+  <data name="Export Sales Summary (Filtered)" xml:space="preserve">
+    <value>Export Sales Summary (Filtered)</value>
+  </data>
+  <data name="Features" xml:space="preserve">
+    <value>Features</value>
+  </data>
+  <data name="File" xml:space="preserve">
+    <value>File</value>
+  </data>
+  <data name="Filter Name (Active)" xml:space="preserve">
+    <value>Filter Name (Active)</value>
+  </data>
+  <data name="Filter Name (Stored)" xml:space="preserve">
+    <value>Filter Name (Stored)</value>
+  </data>
+  <data name="Filter WorldId (Stored)" xml:space="preserve">
+    <value>Filter WorldId (Stored)</value>
+  </data>
+  <data name="Filters:" xml:space="preserve">
+    <value>Filters:</value>
+  </data>
+  <data name="Game Integrations" xml:space="preserve">
+    <value>Game Integrations</value>
+  </data>
+  <data name="General" xml:space="preserve">
+    <value>General</value>
+  </data>
+  <data name="Gil" xml:space="preserve">
+    <value>Gil</value>
+  </data>
+  <data name="Grid" xml:space="preserve">
+    <value>Grid</value>
+  </data>
+  <data name="Group by " xml:space="preserve">
+    <value>Group by </value>
+  </data>
+  <data name="Group undercut messages by?" xml:space="preserve">
+    <value>Group undercut messages by?</value>
+  </data>
+  <data name="HQ Only" xml:space="preserve">
+    <value>HQ Only</value>
+  </data>
+  <data name="Highlight retainer list?" xml:space="preserve">
+    <value>Highlight retainer list?</value>
+  </data>
+  <data name="Highlight retainer sell list?" xml:space="preserve">
+    <value>Highlight retainer sell list?</value>
+  </data>
+  <data name="Highlighting" xml:space="preserve">
+    <value>Highlighting</value>
+  </data>
+  <data name="How much the item was undercut by." xml:space="preserve">
+    <value>How much the item was undercut by.</value>
+  </data>
+  <data name="How should the sales/sold tabs be laid out, in a grid or in a list?" xml:space="preserve">
+    <value>How should the sales/sold tabs be laid out, in a grid or in a list?</value>
+  </data>
+  <data name="How should undercuts be handled?" xml:space="preserve">
+    <value>How should undercuts be handled?</value>
+  </data>
+  <data name="Icon" xml:space="preserve">
+    <value>Icon</value>
+  </data>
+  <data name="If `Show chat message for undercuts on login` is enabled, which chat channel should these messages be directed to?" xml:space="preserve">
+    <value>If `Show chat message for undercuts on login` is enabled, which chat channel should these messages be directed to?</value>
+  </data>
+  <data name="If `Show chat messages on sale of item` is enabled, which chat channel should these messages be directed to?" xml:space="preserve">
+    <value>If `Show chat messages on sale of item` is enabled, which chat channel should these messages be directed to?</value>
+  </data>
+  <data name="If `Show chat messages on undercut` is enabled, which chat channel should these messages be directed to?" xml:space="preserve">
+    <value>If `Show chat messages on undercut` is enabled, which chat channel should these messages be directed to?</value>
+  </data>
+  <data name="If chat messages are enabled for undercuts, should undercuts on active characters be shown or all retainers?" xml:space="preserve">
+    <value>If chat messages are enabled for undercuts, should undercuts on active characters be shown or all retainers?</value>
+  </data>
+  <data name="Individually" xml:space="preserve">
+    <value>Individually</value>
+  </data>
+  <data name="Is HQ?" xml:space="preserve">
+    <value>Is HQ?</value>
+  </data>
+  <data name="Is the item high quality?" xml:space="preserve">
+    <value>Is the item high quality?</value>
+  </data>
+  <data name="Is the retainer overlay currently collapsed?" xml:space="preserve">
+    <value>Is the retainer overlay currently collapsed?</value>
+  </data>
+  <data name="IsHq" xml:space="preserve">
+    <value>IsHq</value>
+  </data>
+  <data name="It looks like you opened your retainer before this plugin loaded. Please go back to the retainer list and reopen the retainer. The only time this happens is when the plugin is updated or you have just installed the plugin." xml:space="preserve">
+    <value>It looks like you opened your retainer before this plugin loaded. Please go back to the retainer list and reopen the retainer. The only time this happens is when the plugin is updated or you have just installed the plugin.</value>
+  </data>
+  <data name="Item Count" xml:space="preserve">
+    <value>Item Count</value>
+  </data>
+  <data name="Item Sold" xml:space="preserve">
+    <value>Item Sold</value>
+  </data>
+  <data name="ItemId" xml:space="preserve">
+    <value>ItemId</value>
+  </data>
+  <data name="Ko-Fi" xml:space="preserve">
+    <value>Ko-Fi</value>
+  </data>
+  <data name="Last Update" xml:space="preserve">
+    <value>Last Update</value>
+  </data>
+  <data name="LastUpdated" xml:space="preserve">
+    <value>LastUpdated</value>
+  </data>
+  <data name="Latest Data:" xml:space="preserve">
+    <value>Latest Data:</value>
+  </data>
+  <data name="Left Click: Select/Unselect" xml:space="preserve">
+    <value>Left Click: Select/Unselect</value>
+  </data>
+  <data name="Level" xml:space="preserve">
+    <value>Level</value>
+  </data>
+  <data name="Level: {0}" xml:space="preserve">
+    <value>Level: {0}</value>
+  </data>
+  <data name="List" xml:space="preserve">
+    <value>List</value>
+  </data>
+  <data name="Listed At" xml:space="preserve">
+    <value>Listed At</value>
+  </data>
+  <data name="Listed At: " xml:space="preserve">
+    <value>Listed At: </value>
+  </data>
+  <data name="Listed: {0}" xml:space="preserve">
+    <value>Listed: {0}</value>
+  </data>
+  <data name="Main Window" xml:space="preserve">
+    <value>Main Window</value>
+  </data>
+  <data name="Mark all visible sale items as updated" xml:space="preserve">
+    <value>Mark all visible sale items as updated</value>
+  </data>
+  <data name="Mark as Updated" xml:space="preserve">
+    <value>Mark as Updated</value>
+  </data>
+  <data name="Market Cache Debugger" xml:space="preserve">
+    <value>Market Cache Debugger</value>
+  </data>
+  <data name="Market Item Count" xml:space="preserve">
+    <value>Market Item Count</value>
+  </data>
+  <data name="Matches Quality" xml:space="preserve">
+    <value>Matches Quality</value>
+  </data>
+  <data name="Matching Quality" xml:space="preserve">
+    <value>Matching Quality</value>
+  </data>
+  <data name="Misc Features" xml:space="preserve">
+    <value>Misc Features</value>
+  </data>
+  <data name="Miscellaneous features that improve your overall experience." xml:space="preserve">
+    <value>Miscellaneous features that improve your overall experience.</value>
+  </data>
+  <data name="More Information" xml:space="preserve">
+    <value>More Information</value>
+  </data>
+  <data name="N/A" xml:space="preserve">
+    <value>N/A</value>
+  </data>
+  <data name="NQ Only" xml:space="preserve">
+    <value>NQ Only</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Name: " xml:space="preserve">
+    <value>Name: </value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="No Data" xml:space="preserve">
+    <value>No Data</value>
+  </data>
+  <data name="No characters found. Please login." xml:space="preserve">
+    <value>No characters found. Please login.</value>
+  </data>
+  <data name="No items left to update." xml:space="preserve">
+    <value>No items left to update.</value>
+  </data>
+  <data name="No retainers left to update." xml:space="preserve">
+    <value>No retainers left to update.</value>
+  </data>
+  <data name="No sales tracked yet, please visit a retainer to perform an initial scan on their sales." xml:space="preserve">
+    <value>No sales tracked yet, please visit a retainer to perform an initial scan on their sales.</value>
+  </data>
+  <data name="No worlds found. Please login." xml:space="preserve">
+    <value>No worlds found. Please login.</value>
+  </data>
+  <data name="Only undercuts on active character&#x27;s retainers" xml:space="preserve">
+    <value>Only undercuts on active character's retainers</value>
+  </data>
+  <data name="Open Crafting Log" xml:space="preserve">
+    <value>Open Crafting Log</value>
+  </data>
+  <data name="Open the Allagan Market configuration window." xml:space="preserve">
+    <value>Open the Allagan Market configuration window.</value>
+  </data>
+  <data name="Open the Allagan Market main window." xml:space="preserve">
+    <value>Open the Allagan Market main window.</value>
+  </data>
+  <data name="Overlays" xml:space="preserve">
+    <value>Overlays</value>
+  </data>
+  <data name="OwnPrice" xml:space="preserve">
+    <value>OwnPrice</value>
+  </data>
+  <data name="Owner Id" xml:space="preserve">
+    <value>Owner Id</value>
+  </data>
+  <data name="Please login." xml:space="preserve">
+    <value>Please login.</value>
+  </data>
+  <data name="Provides a groupable list of items you have sold over a given period." xml:space="preserve">
+    <value>Provides a groupable list of items you have sold over a given period.</value>
+  </data>
+  <data name="Quantity" xml:space="preserve">
+    <value>Quantity</value>
+  </data>
+  <data name="Rec. Price" xml:space="preserve">
+    <value>Rec. Price</value>
+  </data>
+  <data name="Rec. Unit Price: " xml:space="preserve">
+    <value>Rec. Unit Price: </value>
+  </data>
+  <data name="Reconfigure All Features" xml:space="preserve">
+    <value>Reconfigure All Features</value>
+  </data>
+  <data name="Report a Issue" xml:space="preserve">
+    <value>Report a Issue</value>
+  </data>
+  <data name="Retainer" xml:space="preserve">
+    <value>Retainer</value>
+  </data>
+  <data name="Retainer Debugger" xml:space="preserve">
+    <value>Retainer Debugger</value>
+  </data>
+  <data name="Retainer Id" xml:space="preserve">
+    <value>Retainer Id</value>
+  </data>
+  <data name="Retainer List Overlay" xml:space="preserve">
+    <value>Retainer List Overlay</value>
+  </data>
+  <data name="Retainer Order" xml:space="preserve">
+    <value>Retainer Order</value>
+  </data>
+  <data name="Retainer Overlay - Collapsed?" xml:space="preserve">
+    <value>Retainer Overlay - Collapsed?</value>
+  </data>
+  <data name="Retainer Sell List Overlay" xml:space="preserve">
+    <value>Retainer Sell List Overlay</value>
+  </data>
+  <data name="Retainer Sell Overlay" xml:space="preserve">
+    <value>Retainer Sell Overlay</value>
+  </data>
+  <data name="RetainerManager not available." xml:space="preserve">
+    <value>RetainerManager not available.</value>
+  </data>
+  <data name="Right Click: Menu" xml:space="preserve">
+    <value>Right Click: Menu</value>
+  </data>
+  <data name="Round the recommended price to the nearest multiple of" xml:space="preserve">
+    <value>Round the recommended price to the nearest multiple of</value>
+  </data>
+  <data name="Round up or down" xml:space="preserve">
+    <value>Round up or down</value>
+  </data>
+  <data name="Sale History" xml:space="preserve">
+    <value>Sale History</value>
+  </data>
+  <data name="Sale Item Table" xml:space="preserve">
+    <value>Sale Item Table</value>
+  </data>
+  <data name="Sale Summary" xml:space="preserve">
+    <value>Sale Summary</value>
+  </data>
+  <data name="Sale Summary Date Range" xml:space="preserve">
+    <value>Sale Summary Date Range</value>
+  </data>
+  <data name="Sale Summary Group" xml:space="preserve">
+    <value>Sale Summary Group</value>
+  </data>
+  <data name="Sale Summary Time Span" xml:space="preserve">
+    <value>Sale Summary Time Span</value>
+  </data>
+  <data name="Search:" xml:space="preserve">
+    <value>Search:</value>
+  </data>
+  <data name="Select a save location" xml:space="preserve">
+    <value>Select a save location</value>
+  </data>
+  <data name="Selling" xml:space="preserve">
+    <value>Selling</value>
+  </data>
+  <data name="Sets the date range for the sale summary results." xml:space="preserve">
+    <value>Sets the date range for the sale summary results.</value>
+  </data>
+  <data name="Should a button to open Allagan Market be added to Dalamud&#x27;s title menu?" xml:space="preserve">
+    <value>Should a button to open Allagan Market be added to Dalamud's title menu?</value>
+  </data>
+  <data name="Should a chat message anytime a undercut occurs on an item you are selling?" xml:space="preserve">
+    <value>Should a chat message anytime a undercut occurs on an item you are selling?</value>
+  </data>
+  <data name="Should the retainer list be highlighted for undercuts and updates?" xml:space="preserve">
+    <value>Should the retainer list be highlighted for undercuts and updates?</value>
+  </data>
+  <data name="Should the retainer sell list be highlighted for undercuts and updates?" xml:space="preserve">
+    <value>Should the retainer sell list be highlighted for undercuts and updates?</value>
+  </data>
+  <data name="Show Retainer Overlay?" xml:space="preserve">
+    <value>Show Retainer Overlay?</value>
+  </data>
+  <data name="Show chat message for undercuts on login - chat type" xml:space="preserve">
+    <value>Show chat message for undercuts on login - chat type</value>
+  </data>
+  <data name="Show chat message for undercuts on login?" xml:space="preserve">
+    <value>Show chat message for undercuts on login?</value>
+  </data>
+  <data name="Show chat messages for undercuts for which characters?" xml:space="preserve">
+    <value>Show chat messages for undercuts for which characters?</value>
+  </data>
+  <data name="Show chat messages on sale of item - chat type" xml:space="preserve">
+    <value>Show chat messages on sale of item - chat type</value>
+  </data>
+  <data name="Show chat messages on sale of item?" xml:space="preserve">
+    <value>Show chat messages on sale of item?</value>
+  </data>
+  <data name="Show chat messages on undercut - chat type" xml:space="preserve">
+    <value>Show chat messages on undercut - chat type</value>
+  </data>
+  <data name="Show chat messages on undercut?" xml:space="preserve">
+    <value>Show chat messages on undercut?</value>
+  </data>
+  <data name="Show empty slots:" xml:space="preserve">
+    <value>Show empty slots:</value>
+  </data>
+  <data name="Show/hide items that need to be updated." xml:space="preserve">
+    <value>Show/hide items that need to be updated.</value>
+  </data>
+  <data name="Show/hide retainers that need to be updated." xml:space="preserve">
+    <value>Show/hide retainers that need to be updated.</value>
+  </data>
+  <data name="Shows the Allagan Market configuration window." xml:space="preserve">
+    <value>Shows the Allagan Market configuration window.</value>
+  </data>
+  <data name="Shows the Allagan Market debug window." xml:space="preserve">
+    <value>Shows the Allagan Market debug window.</value>
+  </data>
+  <data name="Shows the Allagan Market main window." xml:space="preserve">
+    <value>Shows the Allagan Market main window.</value>
+  </data>
+  <data name="Since Today" xml:space="preserve">
+    <value>Since Today</value>
+  </data>
+  <data name="Slot" xml:space="preserve">
+    <value>Slot</value>
+  </data>
+  <data name="Sold At" xml:space="preserve">
+    <value>Sold At</value>
+  </data>
+  <data name="Sold Item Table" xml:space="preserve">
+    <value>Sold Item Table</value>
+  </data>
+  <data name="Sold on {0}" xml:space="preserve">
+    <value>Sold on {0}</value>
+  </data>
+  <data name="Source: {0}" xml:space="preserve">
+    <value>Source: {0}</value>
+  </data>
+  <data name="Sourced From: {0}" xml:space="preserve">
+    <value>Sourced From: {0}</value>
+  </data>
+  <data name="Stale Pricing Period" xml:space="preserve">
+    <value>Stale Pricing Period</value>
+  </data>
+  <data name="Stale Pricing?" xml:space="preserve">
+    <value>Stale Pricing?</value>
+  </data>
+  <data name="Stored Retainers (from CharacterMonitorService)" xml:space="preserve">
+    <value>Stored Retainers (from CharacterMonitorService)</value>
+  </data>
+  <data name="Tax " xml:space="preserve">
+    <value>Tax </value>
+  </data>
+  <data name="The average sale price of this item." xml:space="preserve">
+    <value>The average sale price of this item.</value>
+  </data>
+  <data name="The date the item was listed on the market." xml:space="preserve">
+    <value>The date the item was listed on the market.</value>
+  </data>
+  <data name="The icon of the item" xml:space="preserve">
+    <value>The icon of the item</value>
+  </data>
+  <data name="The name of the item" xml:space="preserve">
+    <value>The name of the item</value>
+  </data>
+  <data name="The name of the retainer" xml:space="preserve">
+    <value>The name of the retainer</value>
+  </data>
+  <data name="The plugin has been reloaded since entering a retainer, please back out and load back into the retainer." xml:space="preserve">
+    <value>The plugin has been reloaded since entering a retainer, please back out and load back into the retainer.</value>
+  </data>
+  <data name="The plugin will mark items in yellow once their pricing is considered to be stale. How often should the plugin ask you to price check/update the item in minutes? Viewing the current offerings for an item or updating the price of an update will reset this counter." xml:space="preserve">
+    <value>The plugin will mark items in yellow once their pricing is considered to be stale. How often should the plugin ask you to price check/update the item in minutes? Viewing the current offerings for an item or updating the price of an update will reset this counter.</value>
+  </data>
+  <data name="The quantity of item being sold." xml:space="preserve">
+    <value>The quantity of item being sold.</value>
+  </data>
+  <data name="The total amount of the sale item/sold item" xml:space="preserve">
+    <value>The total amount of the sale item/sold item</value>
+  </data>
+  <data name="The total tax paid on the item" xml:space="preserve">
+    <value>The total tax paid on the item</value>
+  </data>
+  <data name="The unit price of the item being sold." xml:space="preserve">
+    <value>The unit price of the item being sold.</value>
+  </data>
+  <data name="The world" xml:space="preserve">
+    <value>The world</value>
+  </data>
+  <data name="These are the items that you have sold." xml:space="preserve">
+    <value>These are the items that you have sold.</value>
+  </data>
+  <data name="These are the items you currently have for sale." xml:space="preserve">
+    <value>These are the items you currently have for sale.</value>
+  </data>
+  <data name="This will show a message when a sale of an item occurs. At present, this only happens when you view a retainer and AM is able to calculate if the item is sold." xml:space="preserve">
+    <value>This will show a message when a sale of an item occurs. At present, this only happens when you view a retainer and AM is able to calculate if the item is sold.</value>
+  </data>
+  <data name="Toggle highlighting on the retainer list." xml:space="preserve">
+    <value>Toggle highlighting on the retainer list.</value>
+  </data>
+  <data name="Toggle search bar" xml:space="preserve">
+    <value>Toggle search bar</value>
+  </data>
+  <data name="Total " xml:space="preserve">
+    <value>Total </value>
+  </data>
+  <data name="Town" xml:space="preserve">
+    <value>Town</value>
+  </data>
+  <data name="Type" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="Undercut" xml:space="preserve">
+    <value>Undercut</value>
+  </data>
+  <data name="Undercut Settings:" xml:space="preserve">
+    <value>Undercut Settings:</value>
+  </data>
+  <data name="Undercut amount" xml:space="preserve">
+    <value>Undercut amount</value>
+  </data>
+  <data name="Undercut by" xml:space="preserve">
+    <value>Undercut by</value>
+  </data>
+  <data name="Undercut comparison" xml:space="preserve">
+    <value>Undercut comparison</value>
+  </data>
+  <data name="Undercut fallback" xml:space="preserve">
+    <value>Undercut fallback</value>
+  </data>
+  <data name="Undercut?" xml:space="preserve">
+    <value>Undercut?</value>
+  </data>
+  <data name="Undercuts" xml:space="preserve">
+    <value>Undercuts</value>
+  </data>
+  <data name="Undercuts - General" xml:space="preserve">
+    <value>Undercuts - General</value>
+  </data>
+  <data name="Undercuts - On Login" xml:space="preserve">
+    <value>Undercuts - On Login</value>
+  </data>
+  <data name="Undercutting" xml:space="preserve">
+    <value>Undercutting</value>
+  </data>
+  <data name="Unit Price" xml:space="preserve">
+    <value>Unit Price</value>
+  </data>
+  <data name="Unit Price HQ: {0}" xml:space="preserve">
+    <value>Unit Price HQ: {0}</value>
+  </data>
+  <data name="Unit Price NQ: {0}" xml:space="preserve">
+    <value>Unit Price NQ: {0}</value>
+  </data>
+  <data name="UnitCost" xml:space="preserve">
+    <value>UnitCost</value>
+  </data>
+  <data name="Unknown" xml:space="preserve">
+    <value>Unknown</value>
+  </data>
+  <data name="Unknown Character" xml:space="preserve">
+    <value>Unknown Character</value>
+  </data>
+  <data name="Unknown Character/Retainer" xml:space="preserve">
+    <value>Unknown Character/Retainer</value>
+  </data>
+  <data name="Unknown Class" xml:space="preserve">
+    <value>Unknown Class</value>
+  </data>
+  <data name="Unknown Item" xml:space="preserve">
+    <value>Unknown Item</value>
+  </data>
+  <data name="Unknown World" xml:space="preserve">
+    <value>Unknown World</value>
+  </data>
+  <data name="Updated At" xml:space="preserve">
+    <value>Updated At</value>
+  </data>
+  <data name="Updated At: " xml:space="preserve">
+    <value>Updated At: </value>
+  </data>
+  <data name="Updated: {0}" xml:space="preserve">
+    <value>Updated: {0}</value>
+  </data>
+  <data name="Use Default" xml:space="preserve">
+    <value>Use Default</value>
+  </data>
+  <data name="Value" xml:space="preserve">
+    <value>Value</value>
+  </data>
+  <data name="Venture Id" xml:space="preserve">
+    <value>Venture Id</value>
+  </data>
+  <data name="View" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="What messages should be displayed in chat?" xml:space="preserve">
+    <value>What messages should be displayed in chat?</value>
+  </data>
+  <data name="What to group the sale summary by" xml:space="preserve">
+    <value>What to group the sale summary by</value>
+  </data>
+  <data name="When determining if an item is undercut, which results should be compared against? This can be changed individually per item. Items that cannot be HQ will ignore this setting." xml:space="preserve">
+    <value>When determining if an item is undercut, which results should be compared against? This can be changed individually per item. Items that cannot be HQ will ignore this setting.</value>
+  </data>
+  <data name="When determining if you have been undercut and there are no listings for the quality selected, should AT fallback to using a price from the other quality. i.e. there are no HQ entries, it will use NQ entries instead. " xml:space="preserve">
+    <value>When determining if you have been undercut and there are no listings for the quality selected, should AT fallback to using a price from the other quality. i.e. there are no HQ entries, it will use NQ entries instead. </value>
+  </data>
+  <data name="When displaying a recommended undercut price, how many gil should we minus from the lowest price to come to come to the recommended price?" xml:space="preserve">
+    <value>When displaying a recommended undercut price, how many gil should we minus from the lowest price to come to come to the recommended price?</value>
+  </data>
+  <data name="When displaying a recommended undercut price, this indicates the nearest multiple to which the recommended price is rounded to. Set to 1 if you don&#x27;t want to round off the recommended pricing." xml:space="preserve">
+    <value>When displaying a recommended undercut price, this indicates the nearest multiple to which the recommended price is rounded to. Set to 1 if you don't want to round off the recommended pricing.</value>
+  </data>
+  <data name="When enabled and you are at a retainer bell, a overlay will display on the right hand side of the retainer list, sales list and when pricing items." xml:space="preserve">
+    <value>When enabled and you are at a retainer bell, a overlay will display on the right hand side of the retainer list, sales list and when pricing items.</value>
+  </data>
+  <data name="When multiple undercuts occur, how should these be grouped together?" xml:space="preserve">
+    <value>When multiple undercuts occur, how should these be grouped together?</value>
+  </data>
+  <data name="When searching the following operators can be used to compare: " xml:space="preserve">
+    <value>When searching the following operators can be used to compare: </value>
+  </data>
+  <data name="When the item was last updated by either confirming the item is not undercut or by adjusting the price to be the lowest." xml:space="preserve">
+    <value>When the item was last updated by either confirming the item is not undercut or by adjusting the price to be the lowest.</value>
+  </data>
+  <data name="When the item was sold." xml:space="preserve">
+    <value>When the item was sold.</value>
+  </data>
+  <data name="When you first login should the plugin notify you of any undercuts that have occurred on your items?" xml:space="preserve">
+    <value>When you first login should the plugin notify you of any undercuts that have occurred on your items?</value>
+  </data>
+  <data name="Wizard" xml:space="preserve">
+    <value>Wizard</value>
+  </data>
+  <data name="World" xml:space="preserve">
+    <value>World</value>
+  </data>
+  <data name="World Id" xml:space="preserve">
+    <value>World Id</value>
+  </data>
+  <data name="WorldId" xml:space="preserve">
+    <value>WorldId</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="You currently have {0} undercut items" xml:space="preserve">
+    <value>You currently have {0} undercut items</value>
+  </data>
+  <data name="You have been undercut by {0} for {1}" xml:space="preserve">
+    <value>You have been undercut by {0} for {1}</value>
+  </data>
+  <data name="You have been undercut by {0} on {1} {2} you are selling." xml:space="preserve">
+    <value>You have been undercut by {0} on {1} {2} you are selling.</value>
+  </data>
+  <data name="You have been undercut on this item by {0} {1}" xml:space="preserve">
+    <value>You have been undercut on this item by {0} {1}</value>
+  </data>
+  <data name="You have been undercut on {0} items that {1} is selling." xml:space="preserve">
+    <value>You have been undercut on {0} items that {1} is selling.</value>
+  </data>
+  <data name="You have been undercut on {0} items." xml:space="preserve">
+    <value>You have been undercut on {0} items.</value>
+  </data>
+  <data name="You sold {0} {1} for {2}" xml:space="preserve">
+    <value>You sold {0} {1} for {2}</value>
+  </data>
+  <data name="undercut" xml:space="preserve">
+    <value>undercut</value>
+  </data>
+  <data name="undercuts" xml:space="preserve">
+    <value>undercuts</value>
+  </data>
+  <data name="{0} at {1} ({2})" xml:space="preserve">
+    <value>{0} at {1} ({2})</value>
+  </data>
+  <data name="{0} has {1} stored." xml:space="preserve">
+    <value>{0} has {1} stored.</value>
+  </data>
+  <data name="{0} items for sale on {1} worth {2}" xml:space="preserve">
+    <value>{0} items for sale on {1} worth {2}</value>
+  </data>
+  <data name="{0} items sold on {1} worth {2}" xml:space="preserve">
+    <value>{0} items sold on {1} worth {2}</value>
+  </data>
+  <data name="||, search multiple expressions using OR" xml:space="preserve">
+    <value>||, search multiple expressions using OR</value>
+  </data>
+</root>

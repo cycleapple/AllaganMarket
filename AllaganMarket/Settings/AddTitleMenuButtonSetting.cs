@@ -10,10 +10,10 @@ public class AddTitleMenuButtonSetting(ImGuiService imGuiService)
 
     public override string Key { get; set; } = "AddTitleMenuButton";
 
-    public override string Name { get; set; } = "Add title menu button?";
+    public override string Name { get; set; } = Loc.T("Add title menu button?");
 
     public override string HelpText { get; set; } =
-        "Should a button to open Allagan Market be added to Dalamud's title menu?";
+        Loc.T("Should a button to open Allagan Market be added to Dalamud's title menu?");
 
     public override string Version { get; } = "1.0.0";
 

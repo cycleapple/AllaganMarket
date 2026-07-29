@@ -164,7 +164,10 @@ public class NotificationService : IHostedService
                     {
                         this.SendMessage(
                             chatType,
-                            $"You have been undercut by {undercutAmount.Value.ToString("C", this.gilNumberFormat)} for {item.Value.Singular.ExtractText()}");
+                            Loc.F(
+                                "You have been undercut by {0} for {1}",
+                                undercutAmount.Value.ToString("C", this.gilNumberFormat),
+                                item.Value.Singular.ExtractText()));
                     }
                 }
             }
@@ -172,7 +175,7 @@ public class NotificationService : IHostedService
             {
                 this.SendMessage(
                     chatType,
-                    $"You have been undercut on {undercutItems.Count} items.");
+                    Loc.F("You have been undercut on {0} items.", undercutItems.Count));
             }
             else if (groupingSetting == ChatNotifyUndercutGrouping.GroupByItem)
             {
@@ -194,7 +197,11 @@ public class NotificationService : IHostedService
                     {
                         this.SendMessage(
                             chatType,
-                            $"You have been undercut by {totalUndercutAmount.ToString("C", this.gilNumberFormat)} on {itemGroup.Count()} {item.Value.Singular.ExtractText()} you are selling.");
+                            Loc.F(
+                                "You have been undercut by {0} on {1} {2} you are selling.",
+                                totalUndercutAmount.ToString("C", this.gilNumberFormat),
+                                itemGroup.Count(),
+                                item.Value.Singular.ExtractText()));
                     }
                 }
             }
@@ -207,7 +214,10 @@ public class NotificationService : IHostedService
                     {
                         this.SendMessage(
                             chatType,
-                            $"You have been undercut on {itemGroup.Count()} items that {retainer.Name} is selling.");
+                            Loc.F(
+                                "You have been undercut on {0} items that {1} is selling.",
+                                itemGroup.Count(),
+                                retainer.Name));
                     }
                 }
             }
@@ -232,7 +242,11 @@ public class NotificationService : IHostedService
             {
                 var chatEntry = new XivChatEntry();
                 chatEntry.Message = new SeStringBuilder().AddText(
-                                                             $"You sold {soldItem.Quantity} {item.Value.Name.ExtractText()} for {soldItem.TotalIncTax.ToString("C", this.gilNumberFormat)}")
+                                                             Loc.F(
+                                                                 "You sold {0} {1} for {2}",
+                                                                 soldItem.Quantity,
+                                                                 item.Value.Name.ExtractText(),
+                                                                 soldItem.TotalIncTax.ToString("C", this.gilNumberFormat)))
                                                          .BuiltString;
                 chatEntry.Type = this.notifySoldItemChatTypeSetting.CurrentValue(this.configuration);
                 this.chatGui.Print(chatEntry);

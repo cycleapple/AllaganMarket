@@ -17,7 +17,7 @@ public class ChatNotificationsFeature(IEnumerable<IFormField<Configuration>> set
     ],
     settings)
 {
-    public override string Name { get; } = "Chat Notifications";
+    public override string Name { get; } = Loc.T("Chat Notifications");
 
-    public override string Description { get; } = "What messages should be displayed in chat?";
+    public override string Description { get; } = Loc.T("What messages should be displayed in chat?");
 }

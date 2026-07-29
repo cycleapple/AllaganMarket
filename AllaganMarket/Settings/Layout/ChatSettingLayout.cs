@@ -16,19 +16,19 @@ public class ChatSettingLayout : SettingPage
     {
         return
         [
-            new TextLayoutItem("Undercuts - General"),
+            new TextLayoutItem(Loc.T("Undercuts - General")),
             new SeparatorLayoutItem(),
             new SettingLayoutItem(typeof(ChatNotifyUndercutSetting)),
             new SettingLayoutItem(typeof(ChatNotifyUndercutCharacterSetting)),
             new SettingLayoutItem(typeof(ChatNotifyUndercutGroupingSetting)),
             new SettingLayoutItem(typeof(ChatNotifyUndercutChatTypeSetting)),
             new SpacerLayoutItem(),
-            new TextLayoutItem("Undercuts - On Login"),
+            new TextLayoutItem(Loc.T("Undercuts - On Login")),
             new SeparatorLayoutItem(),
             new SettingLayoutItem(typeof(ChatNotifyUndercutLoginSetting)),
             new SettingLayoutItem(typeof(ChatNotifyUndercutLoginChatTypeSetting)),
             new SpacerLayoutItem(),
-            new TextLayoutItem("Item Sold"),
+            new TextLayoutItem(Loc.T("Item Sold")),
             new SeparatorLayoutItem(),
             new SettingLayoutItem(typeof(ChatNotifySoldItemSetting)),
             new SettingLayoutItem(typeof(ChatNotifySoldItemChatTypeSetting))

@@ -20,7 +20,7 @@ public class RetainerColumn(
 
     public override string Key { get; set; } = "RetainerName";
 
-    public override string Name { get; set; } = "Retainer";
+    public override string Name { get; set; } = Loc.T("Retainer");
 
     public override string? RenderName { get; set; } = null;
 
@@ -32,7 +32,7 @@ public class RetainerColumn(
 
     public override string EmptyText { get; set; } = string.Empty;
 
-    public override string HelpText { get; set; } = "The name of the retainer";
+    public override string HelpText { get; set; } = Loc.T("The name of the retainer");
 
     public override string Version { get; } = "1.0.0";
 

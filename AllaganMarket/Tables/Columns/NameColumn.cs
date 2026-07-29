@@ -31,7 +31,7 @@ public class NameColumn(
 
     public override string Key { get; set; } = "Name";
 
-    public override string Name { get; set; } = "Name";
+    public override string Name { get; set; } = Loc.T("Name");
 
     public override string? RenderName { get; set; } = null;
 
@@ -43,7 +43,7 @@ public class NameColumn(
 
     public override string EmptyText { get; set; } = string.Empty;
 
-    public override string HelpText { get; set; } = "The name of the item";
+    public override string HelpText { get; set; } = Loc.T("The name of the item");
 
     public override string Version { get; } = "1.0.0";
 

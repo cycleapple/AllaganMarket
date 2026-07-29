@@ -31,19 +31,19 @@ public class CommandService : IHostedService
         this.commands = new List<CommandRegistration>
         {
             new("/allaganmarket",
-                "Shows the Allagan Market main window.",
+                Loc.T("Shows the Allagan Market main window."),
                 (args) => this.mediatorService.Publish(new ToggleWindowMessage(typeof(MainWindow)))),
 
             new("/amarket",
-                "Alias for /allaganmarket.",
+                Loc.T("Alias for /allaganmarket."),
                 (args) => this.mediatorService.Publish(new ToggleWindowMessage(typeof(MainWindow)))),
 
             new("/amconfig",
-                "Shows the Allagan Market configuration window.",
+                Loc.T("Shows the Allagan Market configuration window."),
                 (args) => this.mediatorService.Publish(new ToggleWindowMessage(typeof(ConfigWindow)))),
 
             new("/amdebug",
-                "Shows the Allagan Market debug window.",
+                Loc.T("Shows the Allagan Market debug window."),
                 (args) => this.mediatorService.Publish(new ToggleWindowMessage(typeof(AllaganDebugWindow)))),
         };
     }

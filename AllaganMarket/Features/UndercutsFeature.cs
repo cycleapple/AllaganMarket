@@ -14,7 +14,7 @@ public class UndercutsFeature(IEnumerable<IFormField<Configuration>> settings) :
     ],
     settings)
 {
-    public override string Name { get; } = "Undercuts";
+    public override string Name { get; } = Loc.T("Undercuts");
 
-    public override string Description { get; } = "How should undercuts be handled?";
+    public override string Description { get; } = Loc.T("How should undercuts be handled?");
 }

@@ -57,7 +57,7 @@ public class RetainerSellOverlayWindow : OverlayWindow
         ShowRetainerOverlaySetting retainerOverlaySetting,
         IRetainerMarketService retainerMarketService,
         UndercutService undercutService)
-        : base(addonLifecycle, gameGui, logger, mediator, imGuiService, "Retainer Sell Overlay")
+        : base(addonLifecycle, gameGui, logger, mediator, imGuiService, Loc.T("Retainer Sell Overlay"))
     {
         this.characterMonitorService = characterMonitorService;
         this.saleTrackerService = saleTrackerService;
@@ -148,7 +148,7 @@ public class RetainerSellOverlayWindow : OverlayWindow
         }
 
         ImGui.SameLine();
-        ImGui.Text("Allagan Market");
+        ImGui.Text(Loc.T("Allagan Market"));
 
         ImGui.SameLine();
 
@@ -158,7 +158,7 @@ public class RetainerSellOverlayWindow : OverlayWindow
                 this.font,
                 FontAwesomeIcon.Bars,
                 ref currentCursorPosX,
-                "Open the Allagan Market main window.",
+                Loc.T("Open the Allagan Market main window."),
                 true))
         {
             this.MediatorService.Publish(new ToggleWindowMessage(typeof(MainWindow)));
@@ -170,7 +170,7 @@ public class RetainerSellOverlayWindow : OverlayWindow
                 this.font,
                 FontAwesomeIcon.Cog,
                 ref currentCursorPosX,
-                "Open the Allagan Market configuration window.",
+                Loc.T("Open the Allagan Market configuration window."),
                 true))
         {
             this.MediatorService.Publish(new ToggleWindowMessage(typeof(ConfigWindow)));
@@ -182,7 +182,7 @@ public class RetainerSellOverlayWindow : OverlayWindow
         {
             ImGui.PushTextWrapPos();
             ImGui.Text(
-                "The plugin has been reloaded since entering a retainer, please back out and load back into the retainer.");
+                Loc.T("The plugin has been reloaded since entering a retainer, please back out and load back into the retainer."));
             ImGui.PopTextWrapPos();
             return;
         }
@@ -212,29 +212,29 @@ public class RetainerSellOverlayWindow : OverlayWindow
             {
                 marketCache = this.undercutService.GetMarketPriceCache(activeRetainer.WorldId, currentItem.Value.RowId, null);
             }
-            var recommendedPrice = recommendedUnitPrice == null ? "No Data" : recommendedUnitPrice.Value.Amount.ToString();
+            var recommendedPrice = recommendedUnitPrice == null ? Loc.T("No Data") : recommendedUnitPrice.Value.Amount.ToString();
 
             using (ImRaii.Table("ItemList", 2, ImGuiTableFlags.SizingFixedFit | ImGuiTableFlags.NoSavedSettings))
             {
-                ImGui.TableSetupColumn("Name", ImGuiTableColumnFlags.WidthFixed, 120 * ImGui.GetIO().FontGlobalScale);
-                ImGui.TableSetupColumn("Value", ImGuiTableColumnFlags.WidthFixed, 200 * ImGui.GetIO().FontGlobalScale);
+                ImGui.TableSetupColumn(Loc.T("Name"), ImGuiTableColumnFlags.WidthFixed, 120 * ImGui.GetIO().FontGlobalScale);
+                ImGui.TableSetupColumn(Loc.T("Value"), ImGuiTableColumnFlags.WidthFixed, 200 * ImGui.GetIO().FontGlobalScale);
 
                 ImGui.TableNextRow();
                 ImGui.TableNextColumn();
-                ImGui.Text("Name: ");
+                ImGui.Text(Loc.T("Name: "));
                 ImGui.TableNextColumn();
                 ImGui.Text($"{currentItem.Value.Name}");
 
                 ImGui.TableNextRow();
                 ImGui.TableNextColumn();
-                ImGui.Text("Rec. Unit Price: ");
+                ImGui.Text(Loc.T("Rec. Unit Price: "));
 
                 ImGui.TableNextColumn();
                 ImGui.Text($"{recommendedPrice}");
                 ImGui.SameLine();
                 using (ImRaii.Disabled(recommendedUnitPrice == null))
                 {
-                    if (ImGui.SmallButton("Copy to Game"))
+                    if (ImGui.SmallButton(Loc.T("Copy to Game")))
                     {
                         if (recommendedUnitPrice != null)
                         {
@@ -255,21 +255,21 @@ public class RetainerSellOverlayWindow : OverlayWindow
                 {
                     ImGui.SameLine();
                     this.ImGuiService.HelpMarker(
-                            "As you have undercut fallback on, the undercut was calculated based off the lowest NQ item.",
+                            Loc.T("As you have undercut fallback on, the undercut was calculated based off the lowest NQ item."),
                             textColor: ImGuiColors.DalamudYellow);
                 }
 
                 ImGui.TableNextRow();
                 ImGui.TableNextColumn();
-                ImGui.Text("Updated At: ");
+                ImGui.Text(Loc.T("Updated At: "));
                 ImGui.TableNextColumn();
-                ImGui.Text($"{lastUpdated?.ToString(CultureInfo.CurrentCulture) ?? "No Data"}");
+                ImGui.Text($"{lastUpdated?.ToString(CultureInfo.CurrentCulture) ?? Loc.T("No Data")}");
 
                 ImGui.TableNextRow();
                 ImGui.TableNextColumn();
-                ImGui.Text("Listed At: ");
+                ImGui.Text(Loc.T("Listed At: "));
                 ImGui.TableNextColumn();
-                ImGui.Text($"{currentSaleItem?.ListedAt.ToString(CultureInfo.CurrentCulture) ?? "N/A"}");
+                ImGui.Text($"{currentSaleItem?.ListedAt.ToString(CultureInfo.CurrentCulture) ?? Loc.T("N/A")}");
             }
 
             using (ImRaii.PushFont(this.font.IconFont))
@@ -288,14 +288,14 @@ public class RetainerSellOverlayWindow : OverlayWindow
                 {
                     if (tooltip)
                     {
-                        ImGui.Text($"Sourced From: {marketCache?.GetFormattedType() ?? "N/A"}");
+                        ImGui.Text(Loc.F("Sourced From: {0}", marketCache?.GetFormattedType() ?? Loc.T("N/A")));
                     }
                 }
             }
         }
         else
         {
-            ImGui.Text("Please login.");
+            ImGui.Text(Loc.T("Please login."));
         }
     }
 }

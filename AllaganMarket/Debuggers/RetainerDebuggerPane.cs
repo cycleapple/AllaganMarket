@@ -28,7 +28,7 @@ public unsafe class RetainerDebuggerPane : IDebugPane
         this.characterMonitor = characterMonitor;
     }
 
-    public string Name => "Retainer Debugger";
+    public string Name => Loc.T("Retainer Debugger");
 
     public void Draw()
     {
@@ -46,10 +46,10 @@ public unsafe class RetainerDebuggerPane : IDebugPane
 
     private void DrawStoredRetainers()
     {
-        ImGui.Text("Stored Retainers (from CharacterMonitorService)");
-        ImGui.InputText("Filter Name (Stored)", ref this.searchStoredName, 32);
+        ImGui.Text(Loc.T("Stored Retainers (from CharacterMonitorService)"));
+        ImGui.InputText(Loc.T("Filter Name (Stored)"), ref this.searchStoredName, 32);
         ImGui.SameLine();
-        ImGui.InputText("Filter WorldId (Stored)", ref this.searchStoredWorld, 32);
+        ImGui.InputText(Loc.T("Filter WorldId (Stored)"), ref this.searchStoredWorld, 32);
 
         var stored = this.characterMonitor.Characters.Values
                          .Where(c => c.CharacterType == CharacterType.Retainer)
@@ -74,14 +74,14 @@ public unsafe class RetainerDebuggerPane : IDebugPane
         }
 
         ImGui.TableSetupScrollFreeze(0, 1);
-        ImGui.TableSetupColumn("Character Id");
-        ImGui.TableSetupColumn("Owner Id");
-        ImGui.TableSetupColumn("Name");
-        ImGui.TableSetupColumn("World Id");
-        ImGui.TableSetupColumn("ClassJob Id");
-        ImGui.TableSetupColumn("Level");
-        ImGui.TableSetupColumn("Display Order");
-        ImGui.TableSetupColumn("Town");
+        ImGui.TableSetupColumn(Loc.T("Character Id"));
+        ImGui.TableSetupColumn(Loc.T("Owner Id"));
+        ImGui.TableSetupColumn(Loc.T("Name"));
+        ImGui.TableSetupColumn(Loc.T("World Id"));
+        ImGui.TableSetupColumn(Loc.T("ClassJob Id"));
+        ImGui.TableSetupColumn(Loc.T("Level"));
+        ImGui.TableSetupColumn(Loc.T("Display Order"));
+        ImGui.TableSetupColumn(Loc.T("Town"));
         ImGui.TableHeadersRow();
 
         var clipper = new ImGuiListClipper();
@@ -126,13 +126,13 @@ public unsafe class RetainerDebuggerPane : IDebugPane
 
     private void DrawActiveRetainers()
     {
-        ImGui.Text("Active Retainers (from RetainerManager)");
-        ImGui.InputText("Filter Name (Active)", ref this.searchActiveName, 32);
+        ImGui.Text(Loc.T("Active Retainers (from RetainerManager)"));
+        ImGui.InputText(Loc.T("Filter Name (Active)"), ref this.searchActiveName, 32);
 
         var manager = RetainerManager.Instance();
         if (manager == null)
         {
-            ImGui.Text("RetainerManager not available.");
+            ImGui.Text(Loc.T("RetainerManager not available."));
             return;
         }
 
@@ -158,17 +158,17 @@ public unsafe class RetainerDebuggerPane : IDebugPane
         }
 
         ImGui.TableSetupScrollFreeze(0, 1);
-        ImGui.TableSetupColumn("Retainer Id");
-        ImGui.TableSetupColumn("Name");
-        ImGui.TableSetupColumn("Available");
-        ImGui.TableSetupColumn("Class Job");
-        ImGui.TableSetupColumn("Level");
-        ImGui.TableSetupColumn("Item Count");
-        ImGui.TableSetupColumn("Gil");
-        ImGui.TableSetupColumn("Town");
-        ImGui.TableSetupColumn("Market Item Count");
-        ImGui.TableSetupColumn("Venture Id");
-        ImGui.TableSetupColumn("Retainer Order");
+        ImGui.TableSetupColumn(Loc.T("Retainer Id"));
+        ImGui.TableSetupColumn(Loc.T("Name"));
+        ImGui.TableSetupColumn(Loc.T("Available"));
+        ImGui.TableSetupColumn(Loc.T("Class Job"));
+        ImGui.TableSetupColumn(Loc.T("Level"));
+        ImGui.TableSetupColumn(Loc.T("Item Count"));
+        ImGui.TableSetupColumn(Loc.T("Gil"));
+        ImGui.TableSetupColumn(Loc.T("Town"));
+        ImGui.TableSetupColumn(Loc.T("Market Item Count"));
+        ImGui.TableSetupColumn(Loc.T("Venture Id"));
+        ImGui.TableSetupColumn(Loc.T("Retainer Order"));
         ImGui.TableHeadersRow();
 
         var clipper = new ImGuiListClipper();
@@ -196,7 +196,7 @@ public unsafe class RetainerDebuggerPane : IDebugPane
                 ImGui.Text(name);
 
                 ImGui.TableNextColumn();
-                ImGui.Text(r.Available ? "Yes" : "No");
+                ImGui.Text(r.Available ? Loc.T("Yes") : Loc.T("No"));
 
                 ImGui.TableNextColumn();
                 ImGui.Text(r.ClassJob.ToString(CultureInfo.InvariantCulture));

@@ -13,10 +13,10 @@ public class ChatNotifyUndercutCharacterSetting(ImGuiService imGuiService)
 
     public override string Key { get; set; } = "ChatNotifyUndercutLoginCharacter";
 
-    public override string Name { get; set; } = "Show chat messages for undercuts for which characters?";
+    public override string Name { get; set; } = Loc.T("Show chat messages for undercuts for which characters?");
 
     public override string HelpText { get; set; } =
-        "If chat messages are enabled for undercuts, should undercuts on active characters be shown or all retainers?";
+        Loc.T("If chat messages are enabled for undercuts, should undercuts on active characters be shown or all retainers?");
 
     public override string Version { get; } = "1.0.0";
 
@@ -27,8 +27,8 @@ public class ChatNotifyUndercutCharacterSetting(ImGuiService imGuiService)
 
     public override Dictionary<Enum, string> Choices { get; } = new()
     {
-        { ChatNotifyCharacterEnum.OnlyActiveCharacter, "Only undercuts on active character's retainers" },
-        { ChatNotifyCharacterEnum.AllCharacters, "All retainers" },
+        { ChatNotifyCharacterEnum.OnlyActiveCharacter, Loc.T("Only undercuts on active character's retainers") },
+        { ChatNotifyCharacterEnum.AllCharacters, Loc.T("All retainers") },
     };
 
     public SettingType Type { get; set; } = SettingType.Chat;

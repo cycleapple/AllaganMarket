@@ -13,10 +13,10 @@ public class UndercutBySetting : IntegerFormField<Configuration>, ISetting
 
     public override string Key { get; set; } = "UndercutBy";
 
-    public override string Name { get; set; } = "Undercut amount";
+    public override string Name { get; set; } = Loc.T("Undercut amount");
 
     public override string HelpText { get; set; } =
-        "When displaying a recommended undercut price, how many gil should we minus from the lowest price to come to come to the recommended price?";
+        Loc.T("When displaying a recommended undercut price, how many gil should we minus from the lowest price to come to come to the recommended price?");
 
     public override string Version { get; } = "1.0.0.1";
 

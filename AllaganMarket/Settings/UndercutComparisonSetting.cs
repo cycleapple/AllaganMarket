@@ -17,9 +17,9 @@ public class UndercutComparisonSetting : EnumFormField<UndercutComparison, Confi
 
     public override string Key { get; set; } = "UndercutComparison";
 
-    public override string Name { get; set; } = "Undercut comparison";
+    public override string Name { get; set; } = Loc.T("Undercut comparison");
 
-    public override string HelpText { get; set; } = "When determining if an item is undercut, which results should be compared against? This can be changed individually per item. Items that cannot be HQ will ignore this setting.";
+    public override string HelpText { get; set; } = Loc.T("When determining if an item is undercut, which results should be compared against? This can be changed individually per item. Items that cannot be HQ will ignore this setting.");
 
     public override string Version { get; } = "1.0.0.1";
 
@@ -30,10 +30,10 @@ public class UndercutComparisonSetting : EnumFormField<UndercutComparison, Confi
 
     public override Dictionary<Enum, string> Choices { get; } = new()
     {
-        { UndercutComparison.Any, "Any" },
-        { UndercutComparison.MatchingQuality, "Matches Quality" },
-        { UndercutComparison.NqOnly, "NQ Only" },
-        { UndercutComparison.HqOnly, "HQ Only" },
+        { UndercutComparison.Any, Loc.T("Any") },
+        { UndercutComparison.MatchingQuality, Loc.T("Matches Quality") },
+        { UndercutComparison.NqOnly, Loc.T("NQ Only") },
+        { UndercutComparison.HqOnly, Loc.T("HQ Only") },
     };
 
     public SettingType Type { get; set; } = SettingType.Undercutting;

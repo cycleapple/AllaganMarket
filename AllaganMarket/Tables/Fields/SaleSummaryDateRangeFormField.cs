@@ -15,9 +15,9 @@ public class SaleSummaryDateRangeFormField(ImGuiService imGuiService)
 
     public override string Key { get; set; } = "SaleSummaryDateRange";
 
-    public override string Name { get; set; } = "Sale Summary Date Range";
+    public override string Name { get; set; } = Loc.T("Sale Summary Date Range");
 
-    public override string HelpText { get; set; } = "Sets the date range for the sale summary results.";
+    public override string HelpText { get; set; } = Loc.T("Sets the date range for the sale summary results.");
 
     public override string Version { get; } = "1.0.0";
 }

@@ -58,7 +58,7 @@ public class RetainerSellListOverlayWindow : OverlayWindow
         IRetainerMarketService retainerMarketService,
         UndercutService undercutService,
         HighlightingRetainerSellListSetting retainerSellListSetting)
-        : base(addonLifecycle, gameGui, logger, mediator, imGuiService, "Retainer Sell List Overlay")
+        : base(addonLifecycle, gameGui, logger, mediator, imGuiService, Loc.T("Retainer Sell List Overlay"))
     {
         this.characterMonitorService = characterMonitorService;
         this.saleTrackerService = saleTrackerService;
@@ -125,7 +125,7 @@ public class RetainerSellListOverlayWindow : OverlayWindow
         }
 
         ImGui.SameLine();
-        ImGui.Text("Allagan Market");
+        ImGui.Text(Loc.T("Allagan Market"));
 
         ImGui.SameLine();
 
@@ -135,7 +135,7 @@ public class RetainerSellListOverlayWindow : OverlayWindow
                 this.font,
                 FontAwesomeIcon.Bars,
                 ref currentCursorPosX,
-                "Open the Allagan Market main window.",
+                    Loc.T("Open the Allagan Market main window."),
                 true))
         {
             this.MediatorService.Publish(new ToggleWindowMessage(typeof(MainWindow)));
@@ -147,7 +147,7 @@ public class RetainerSellListOverlayWindow : OverlayWindow
                 this.font,
                 FontAwesomeIcon.Cog,
                 ref currentCursorPosX,
-                "Open the Allagan Market configuration window.",
+                    Loc.T("Open the Allagan Market configuration window."),
                 true))
         {
             this.MediatorService.Publish(new ToggleWindowMessage(typeof(ConfigWindow)));
@@ -159,7 +159,7 @@ public class RetainerSellListOverlayWindow : OverlayWindow
                 this.font,
                 FontAwesomeIcon.Eye,
                 ref currentCursorPosX,
-                "Show/hide items that need to be updated.",
+                    Loc.T("Show/hide items that need to be updated."),
                 true,
                 this.showAllItems ? null : ImGuiColors.ParsedGrey))
         {
@@ -173,7 +173,7 @@ public class RetainerSellListOverlayWindow : OverlayWindow
                 this.font,
                 FontAwesomeIcon.Lightbulb,
                 ref currentCursorPosX,
-                "Toggle highlighting on the retainer list.",
+                    Loc.T("Toggle highlighting on the retainer list."),
                 true,
                 retainerHighlighting ? null : ImGuiColors.ParsedGrey))
         {
@@ -187,7 +187,7 @@ public class RetainerSellListOverlayWindow : OverlayWindow
         {
             ImGui.PushTextWrapPos();
             ImGui.Text(
-                "The plugin has been reloaded since entering a retainer, please back out and load back into the retainer.");
+                    Loc.T("The plugin has been reloaded since entering a retainer, please back out and load back into the retainer."));
             ImGui.PopTextWrapPos();
             return;
         }
@@ -202,22 +202,22 @@ public class RetainerSellListOverlayWindow : OverlayWindow
 
             using (ImRaii.Table("ItemList", 5, ImGuiTableFlags.SizingFixedFit))
             {
-                ImGui.TableSetupColumn("Name", ImGuiTableColumnFlags.WidthStretch, 140 * ImGui.GetIO().FontGlobalScale);
-                ImGui.TableSetupColumn("Slot", ImGuiTableColumnFlags.WidthFixed, 40 * ImGui.GetIO().FontGlobalScale);
-                ImGui.TableSetupColumn("Rec. Price", ImGuiTableColumnFlags.WidthFixed, 80 * ImGui.GetIO().FontGlobalScale);
-                ImGui.TableSetupColumn("Undercut", ImGuiTableColumnFlags.WidthFixed, 70 * ImGui.GetIO().FontGlobalScale);
-                ImGui.TableSetupColumn("Stale Pricing?", ImGuiTableColumnFlags.WidthFixed, 110 * ImGui.GetIO().FontGlobalScale);
+                ImGui.TableSetupColumn(Loc.T("Name"), ImGuiTableColumnFlags.WidthStretch, 140 * ImGui.GetIO().FontGlobalScale);
+                ImGui.TableSetupColumn(Loc.T("Slot"), ImGuiTableColumnFlags.WidthFixed, 40 * ImGui.GetIO().FontGlobalScale);
+                ImGui.TableSetupColumn(Loc.T("Rec. Price"), ImGuiTableColumnFlags.WidthFixed, 80 * ImGui.GetIO().FontGlobalScale);
+                ImGui.TableSetupColumn(Loc.T("Undercut"), ImGuiTableColumnFlags.WidthFixed, 70 * ImGui.GetIO().FontGlobalScale);
+                ImGui.TableSetupColumn(Loc.T("Stale Pricing?"), ImGuiTableColumnFlags.WidthFixed, 110 * ImGui.GetIO().FontGlobalScale);
                 ImGui.TableNextRow(ImGuiTableRowFlags.Headers);
                 ImGui.TableNextColumn();
-                ImGui.Text("Name");
+                ImGui.Text(Loc.T("Name"));
                 ImGui.TableNextColumn();
-                ImGui.Text("Slot");
+                ImGui.Text(Loc.T("Slot"));
                 ImGui.TableNextColumn();
-                ImGui.Text("Rec. Price");
+                ImGui.Text(Loc.T("Rec. Price"));
                 ImGui.TableNextColumn();
-                ImGui.Text("Undercut?");
+                ImGui.Text(Loc.T("Undercut?"));
                 ImGui.TableNextColumn();
-                ImGui.Text("Stale Pricing?");
+                ImGui.Text(Loc.T("Stale Pricing?"));
                 if (saleItems != null)
                 {
                     for (var index = 0; index < saleItems.Count; index++)
@@ -231,7 +231,7 @@ public class RetainerSellListOverlayWindow : OverlayWindow
                         }
 
                         var recommendedUnitPrice = this.undercutService.GetRecommendedUnitPrice(saleItem);
-                        var recommendedPrice = recommendedUnitPrice == null ? "No Data" : recommendedUnitPrice.Value.ToString();
+                var recommendedPrice = recommendedUnitPrice == null ? Loc.T("No Data") : recommendedUnitPrice.Value.ToString();
 
                         itemsToCheck = true;
                         ImGui.TableNextRow();
@@ -244,8 +244,8 @@ public class RetainerSellListOverlayWindow : OverlayWindow
                         ImGui.TableNextColumn();
                         ImGui.Text(
                             saleItem.IsEmpty()
-                                ? "Empty"
-                                : this.itemSheet.GetRowOrDefault(saleItem.ItemId)?.Name.ExtractText() ?? "Unknown Item");
+                                               ? Loc.T("Empty")
+                                               : this.itemSheet.GetRowOrDefault(saleItem.ItemId)?.Name.ExtractText() ?? Loc.T("Unknown Item"));
                         green.Pop();
                         yellow.Pop();
                         red.Pop();
@@ -259,24 +259,24 @@ public class RetainerSellListOverlayWindow : OverlayWindow
                         ImGui.Text(recommendedPrice.ToString());
 
                         ImGui.TableNextColumn();
-                        ImGui.Text(saleItem.IsEmpty() ? "N/A" : isUnderCut ? "Yes" : "No");
+                        ImGui.Text(saleItem.IsEmpty() ? Loc.T("N/A") : isUnderCut ? Loc.T("Yes") : Loc.T("No"));
 
                         ImGui.TableNextColumn();
-                        var needsUpdateText = needsUpdate ? "Yes" : "No";
+                        var needsUpdateText = needsUpdate ? Loc.T("Yes") : Loc.T("No");
 
-                        ImGui.Text(saleItem.IsEmpty() ? "N/A" : needsUpdateText);
+                        ImGui.Text(saleItem.IsEmpty() ? Loc.T("N/A") : needsUpdateText);
                     }
                 }
             }
 
             if (!itemsToCheck)
             {
-                ImGui.Text("No items left to update.");
+                ImGui.Text(Loc.T("No items left to update."));
             }
         }
         else
         {
-            ImGui.Text("Please login.");
+            ImGui.Text(Loc.T("Please login."));
         }
     }
 }

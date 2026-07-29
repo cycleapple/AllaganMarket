@@ -17,10 +17,10 @@ public class ChatNotifyUndercutGroupingSetting : EnumFormField<ChatNotifyUndercu
 
     public override string Key { get; set; } = "UndercutGrouping";
 
-    public override string Name { get; set; } = "Group undercut messages by?";
+    public override string Name { get; set; } = Loc.T("Group undercut messages by?");
 
     public override string HelpText { get; set; } =
-        "When multiple undercuts occur, how should these be grouped together?";
+        Loc.T("When multiple undercuts occur, how should these be grouped together?");
 
     public override string Version => "1.0.0.1";
 
@@ -31,10 +31,10 @@ public class ChatNotifyUndercutGroupingSetting : EnumFormField<ChatNotifyUndercu
 
     public override Dictionary<Enum, string> Choices => new()
     {
-        { ChatNotifyUndercutGrouping.Individual, "Individually"},
-        { ChatNotifyUndercutGrouping.Together, "All Together"},
-        { ChatNotifyUndercutGrouping.GroupByItem, "By Item"},
-        { ChatNotifyUndercutGrouping.GroupByRetainer, "By Retainer"},
+        { ChatNotifyUndercutGrouping.Individual, Loc.T("Individually")},
+        { ChatNotifyUndercutGrouping.Together, Loc.T("All Together")},
+        { ChatNotifyUndercutGrouping.GroupByItem, Loc.T("By Item")},
+        { ChatNotifyUndercutGrouping.GroupByRetainer, Loc.T("By Retainer")},
     };
 
     public SettingType Type { get; set; } = SettingType.Chat;

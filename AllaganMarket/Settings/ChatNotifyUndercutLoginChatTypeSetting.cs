@@ -18,10 +18,10 @@ public class ChatNotifyUndercutLoginChatTypeSetting : XivChatTypeFormField, ISet
 
     public override string Key { get; set; } = "UndercutLoginChatType";
 
-    public override string Name { get; set; } = "Show chat message for undercuts on login - chat type";
+    public override string Name { get; set; } = Loc.T("Show chat message for undercuts on login - chat type");
 
     public override string HelpText { get; set; } =
-        "If `Show chat message for undercuts on login` is enabled, which chat channel should these messages be directed to?";
+        Loc.T("If `Show chat message for undercuts on login` is enabled, which chat channel should these messages be directed to?");
 
     public override string Version { get; } = "1.0.0.1";
 

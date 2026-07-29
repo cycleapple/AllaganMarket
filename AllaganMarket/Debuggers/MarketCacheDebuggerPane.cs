@@ -26,22 +26,22 @@ public class MarketCacheDebuggerPane : IDebugPane
         this.configuration = configuration;
     }
 
-    public string Name => "Market Cache Debugger";
+    public string Name => Loc.T("Market Cache Debugger");
 
     public void Draw()
     {
         // --- Search bar row ---
-        ImGui.Text("Filters:");
+        ImGui.Text(Loc.T("Filters:"));
         ImGui.SameLine();
-        ImGui.InputText("ItemId", ref this.searchItemId, 32);
+        ImGui.InputText(Loc.T("ItemId"), ref this.searchItemId, 32);
         ImGui.SameLine();
-        ImGui.InputText("WorldId", ref this.searchWorldId, 32);
+        ImGui.InputText(Loc.T("WorldId"), ref this.searchWorldId, 32);
         ImGui.SameLine();
-        ImGui.InputText("Type", ref this.searchType, 32);
+        ImGui.InputText(Loc.T("Type"), ref this.searchType, 32);
         ImGui.SameLine();
-        ImGui.InputText("UnitCost", ref this.searchUnitCost, 32);
+        ImGui.InputText(Loc.T("UnitCost"), ref this.searchUnitCost, 32);
         ImGui.SameLine();
-        ImGui.InputText("OwnPrice", ref this.searchOwnPrice, 32);
+        ImGui.InputText(Loc.T("OwnPrice"), ref this.searchOwnPrice, 32);
 
         var data = this.CollectFiltered();
 
@@ -53,13 +53,13 @@ public class MarketCacheDebuggerPane : IDebugPane
         if (table.Success)
         {
             ImGui.TableSetupScrollFreeze(0, 1);
-            ImGui.TableSetupColumn("ItemId");
-            ImGui.TableSetupColumn("IsHq");
-            ImGui.TableSetupColumn("WorldId");
-            ImGui.TableSetupColumn("Type");
-            ImGui.TableSetupColumn("LastUpdated");
-            ImGui.TableSetupColumn("UnitCost");
-            ImGui.TableSetupColumn("OwnPrice");
+            ImGui.TableSetupColumn(Loc.T("ItemId"));
+            ImGui.TableSetupColumn(Loc.T("IsHq"));
+            ImGui.TableSetupColumn(Loc.T("WorldId"));
+            ImGui.TableSetupColumn(Loc.T("Type"));
+            ImGui.TableSetupColumn(Loc.T("LastUpdated"));
+            ImGui.TableSetupColumn(Loc.T("UnitCost"));
+            ImGui.TableSetupColumn(Loc.T("OwnPrice"));
             ImGui.TableHeadersRow();
 
             var clipper = new ImGuiListClipper();

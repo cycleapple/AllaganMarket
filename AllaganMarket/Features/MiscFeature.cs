@@ -14,7 +14,7 @@ public class MiscFeature(IEnumerable<IFormField<Configuration>> settings) : Feat
     ],
     settings)
 {
-    public override string Name { get; } = "Misc Features";
+    public override string Name { get; } = Loc.T("Misc Features");
 
-    public override string Description { get; } = "Miscellaneous features that improve your overall experience.";
+    public override string Description { get; } = Loc.T("Miscellaneous features that improve your overall experience.");
 }

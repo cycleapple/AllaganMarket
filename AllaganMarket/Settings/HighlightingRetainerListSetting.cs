@@ -10,10 +10,10 @@ public class HighlightingRetainerListSetting(ImGuiService imGuiService)
 
     public override string Key { get; set; } = "HighlightRetainerList";
 
-    public override string Name { get; set; } = "Highlight retainer list?";
+    public override string Name { get; set; } = Loc.T("Highlight retainer list?");
 
     public override string HelpText { get; set; } =
-        "Should the retainer list be highlighted for undercuts and updates?";
+        Loc.T("Should the retainer list be highlighted for undercuts and updates?");
 
     public override string Version { get; } = "1.0.0.3";
 

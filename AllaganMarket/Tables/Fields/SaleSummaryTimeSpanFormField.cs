@@ -13,7 +13,7 @@ public class SaleSummaryTimeSpanFormField(ImGuiService imGuiService)
 
     public override string Key { get; set; } = "SameSummaryTimeSpan";
 
-    public override string Name { get; set; } = "Sale Summary Time Span";
+    public override string Name { get; set; } = Loc.T("Sale Summary Time Span");
 
     public override string HelpText { get; set; } = string.Empty;
 

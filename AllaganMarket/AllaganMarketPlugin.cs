@@ -87,6 +87,7 @@ public class AllaganMarketPlugin : HostedPlugin
             gameGui,
             condition)
     {
+        Loc.SetCulture(pluginInterface.UiLanguage);
         this.gameGui = gameGui;
         this.CreateHost();
         this.Start();

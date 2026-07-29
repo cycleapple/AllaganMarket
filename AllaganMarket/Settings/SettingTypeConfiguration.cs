@@ -12,12 +12,12 @@ public class SettingTypeConfiguration
     {
         return settingType switch
         {
-            Chat => "Chat",
-            General => "General",
-            Undercutting => "Undercutting",
-            SettingType.Features => "Features",
-            Overlays => "Overlays",
-            Highlighting => "Highlighting",
+            Chat => Loc.T("Chat"),
+            General => Loc.T("General"),
+            Undercutting => Loc.T("Undercutting"),
+            SettingType.Features => Loc.T("Features"),
+            Overlays => Loc.T("Overlays"),
+            Highlighting => Loc.T("Highlighting"),
             _ => settingType.ToString(),
         };
     }

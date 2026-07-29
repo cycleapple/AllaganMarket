@@ -19,7 +19,7 @@ public class WizardWindow : ExtendedWindow, IDisposable
         WizardWidget<Configuration> wizardWidget,
         MediatorService mediatorService,
         ImGuiService imGuiService)
-        : base(mediatorService, imGuiService, "Allagan Market - Wizard")
+        : base(mediatorService, imGuiService, Loc.T("Allagan Market - Wizard"))
     {
         this.wizardWidget = wizardWidget;
         this.wizardWidget.OnClosed += this.WizardWidgetOnOnClosed;

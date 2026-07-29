@@ -9,9 +9,9 @@ public class RetainerOverlayCollapsedSetting(ImGuiService imGuiService) : Boolea
 
     public override string Key { get; set; } = "RetainerOverlayCollapsed";
 
-    public override string Name { get; set; } = "Retainer Overlay - Collapsed?";
+    public override string Name { get; set; } = Loc.T("Retainer Overlay - Collapsed?");
 
-    public override string HelpText { get; set; } = "Is the retainer overlay currently collapsed?";
+    public override string HelpText { get; set; } = Loc.T("Is the retainer overlay currently collapsed?");
 
     public override string Version { get; } = "1.0.0";
 

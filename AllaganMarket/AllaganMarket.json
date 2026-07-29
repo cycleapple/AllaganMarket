@@ -1,13 +1,13 @@
 {
     "Author": "Critical_Impact",
     "Name": "Allagan Market",
-    "Punchline": "Get your retainer sales organized, track active sales, historical sales and undercutting!",
-    "Description": "Allagan Market's primary purpose is to provide a list of all retainer listings/sales across all characters.\n\nIt'll do it's best to track your sales but it works best when it's always on!",
+    "Punchline": "整理僱員銷售資料，追蹤出售中物品、出售記錄與壓價狀態！",
+    "Description": "Allagan Market 會彙整所有角色的僱員上架與出售記錄。\n\n外掛會盡力追蹤銷售資料；持續啟用時可獲得較完整的記錄。",
     "RepoUrl": "https://github.com/cycleapple/AllaganMarket/tree/api13-tw",
     "ApplicableVersion": "any",
     "Tags": [
-        "market",
-        "sales",
-        "retainers"
+        "市場",
+        "銷售",
+        "僱員"
     ]
 }

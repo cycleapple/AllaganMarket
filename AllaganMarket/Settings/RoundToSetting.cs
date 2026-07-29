@@ -16,10 +16,10 @@ public class RoundToSetting : IntegerFormField<Configuration>, ISetting
 
     public override string Key { get; set; } = "RoundTo";
 
-    public override string Name { get; set; } = "Round the recommended price to the nearest multiple of";
+    public override string Name { get; set; } = Loc.T("Round the recommended price to the nearest multiple of");
 
     public override string HelpText { get; set; } =
-        "When displaying a recommended undercut price, this indicates the nearest multiple to which the recommended price is rounded to. Set to 1 if you don't want to round off the recommended pricing.";
+        Loc.T("When displaying a recommended undercut price, this indicates the nearest multiple to which the recommended price is rounded to. Set to 1 if you don't want to round off the recommended pricing.");
 
     public override string Version { get; } = "1.0.0.1";
 

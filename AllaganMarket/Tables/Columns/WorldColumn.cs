@@ -18,7 +18,7 @@ public class WorldColumn(ExcelSheet<World> worldSheet, ImGuiService imGuiService
 
     public override string Key { get; set; } = "World";
 
-    public override string Name { get; set; } = "World";
+    public override string Name { get; set; } = Loc.T("World");
 
     public override string? RenderName { get; set; } = null;
 
@@ -30,7 +30,7 @@ public class WorldColumn(ExcelSheet<World> worldSheet, ImGuiService imGuiService
 
     public override string EmptyText { get; set; } = string.Empty;
 
-    public override string HelpText { get; set; } = "The world";
+    public override string HelpText { get; set; } = Loc.T("The world");
 
     public override string Version { get; } = "1.0.0";
 

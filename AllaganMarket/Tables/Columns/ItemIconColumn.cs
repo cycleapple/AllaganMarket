@@ -29,7 +29,7 @@ public class ItemIconColumn : IconColumn<SearchResultConfiguration, SearchResult
 
     public override string Key { get; set; } = "Icon";
 
-    public override string Name { get; set; } = "Icon";
+    public override string Name { get; set; } = Loc.T("Icon");
 
     public override string? RenderName { get; set; } = null;
 
@@ -48,7 +48,7 @@ public class ItemIconColumn : IconColumn<SearchResultConfiguration, SearchResult
         return item.SaleItem?.GetItem(this.itemSheet)!.Value.Icon ?? item.SoldItem?.GetItem(this.itemSheet)!.Value.Icon ?? null;
     }
 
-    public override string HelpText { get; set; } = "The icon of the item";
+    public override string HelpText { get; set; } = Loc.T("The icon of the item");
 
     public override string Version { get; } = "1.0.0.2";
 }

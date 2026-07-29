@@ -23,7 +23,7 @@ public class UpdatedAtColumn(ImGuiService imGuiService, StringColumnFilter strin
 
     public override string Key { get; set; } = "UpdatedAt";
 
-    public override string Name { get; set; } = "Updated At";
+    public override string Name { get; set; } = Loc.T("Updated At");
 
     public override string? RenderName { get; set; } = null;
 
@@ -36,7 +36,7 @@ public class UpdatedAtColumn(ImGuiService imGuiService, StringColumnFilter strin
     public override string EmptyText { get; set; } = string.Empty;
 
     public override string HelpText { get; set; } =
-        "When the item was last updated by either confirming the item is not undercut or by adjusting the price to be the lowest.";
+        Loc.T("When the item was last updated by either confirming the item is not undercut or by adjusting the price to be the lowest.");
 
     public override string Version { get; } = "1.0.0";
 

@@ -19,7 +19,7 @@ public class TotalColumn(NumberFormatInfo gilFormat, ImGuiService imGuiService, 
 
     public override string Key { get; set; } = "Total";
 
-    public override string Name { get; set; } = "Total " + SeIconChar.Gil.ToIconString();
+    public override string Name { get; set; } = Loc.T("Total ") + SeIconChar.Gil.ToIconString();
 
     public override string? RenderName { get; set; } = null;
 
@@ -31,7 +31,7 @@ public class TotalColumn(NumberFormatInfo gilFormat, ImGuiService imGuiService, 
 
     public override string EmptyText { get; set; } = string.Empty;
 
-    public override string HelpText { get; set; } = "The total amount of the sale item/sold item";
+    public override string HelpText { get; set; } = Loc.T("The total amount of the sale item/sold item");
 
     public override string Version { get; } = "1.0.0";
 

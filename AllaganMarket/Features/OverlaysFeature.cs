@@ -13,8 +13,8 @@ public class OverlaysFeature(IEnumerable<IFormField<Configuration>> settings) : 
     ],
     settings)
 {
-    public override string Name { get; } = "Overlays";
+    public override string Name { get; } = Loc.T("Overlays");
 
     public override string Description { get; } =
-        "Activate overlays that will appear when certain parts of the game UI are present.";
+        Loc.T("Activate overlays that will appear when certain parts of the game UI are present.");
 }
