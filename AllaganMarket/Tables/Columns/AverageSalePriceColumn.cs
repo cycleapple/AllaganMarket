@@ -17,13 +17,13 @@ public class AverageSalePriceColumn(NumberFormatInfo gilFormat, ImGuiService imG
 
     public override string Key { get; set; } = "AverageSalePrice";
 
-    public override string Name { get; set; } = Loc.T("Avg. Sale Price");
+    public override string Name { get; set; } = "Avg. Sale Price";
 
     public override string HelpText { get; set; } = Loc.T("The average sale price of this item.");
 
     public override string Version { get; } = "1.0.0";
 
-    public override string? RenderName { get; set; } = null;
+    public override string? RenderName { get; set; } = Loc.T("Avg. Sale Price");
 
     public override int Width { get; set; } = 80;
 

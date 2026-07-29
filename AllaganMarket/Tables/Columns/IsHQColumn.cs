@@ -12,9 +12,9 @@ public class IsHQColumn(ImGuiService imGuiService)
 
     public override string Key { get; set; } = "IsHQ";
 
-    public override string Name { get; set; } = Loc.T("Is HQ?");
+    public override string Name { get; set; } = "Is HQ?";
 
-    public override string? RenderName { get; set; } = null;
+    public override string? RenderName { get; set; } = Loc.T("Is HQ?");
 
     public override int Width { get; set; } = 70;
 

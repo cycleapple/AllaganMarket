@@ -31,9 +31,9 @@ public class NameColumn(
 
     public override string Key { get; set; } = "Name";
 
-    public override string Name { get; set; } = Loc.T("Name");
+    public override string Name { get; set; } = "Name";
 
-    public override string? RenderName { get; set; } = null;
+    public override string? RenderName { get; set; } = Loc.T("Name");
 
     public override int Width { get; set; } = 100;
 

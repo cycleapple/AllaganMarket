@@ -18,9 +18,9 @@ public class ListedAtColumn(ImGuiService imGuiService, StringColumnFilter string
 
     public override string Key { get; set; } = "ListedAt";
 
-    public override string Name { get; set; } = Loc.T("Listed At");
+    public override string Name { get; set; } = "Listed At";
 
-    public override string? RenderName { get; set; } = null;
+    public override string? RenderName { get; set; } = Loc.T("Listed At");
 
     public override int Width { get; set; } = 100;
 

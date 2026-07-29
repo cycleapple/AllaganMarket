@@ -19,9 +19,9 @@ public class TaxColumn(NumberFormatInfo gilFormat, ImGuiService imGuiService, St
 
     public override string Key { get; set; } = "Tax";
 
-    public override string Name { get; set; } = Loc.T("Tax ") + SeIconChar.Gil.ToIconString();
+    public override string Name { get; set; } = "Tax " + SeIconChar.Gil.ToIconString();
 
-    public override string? RenderName { get; set; } = null;
+    public override string? RenderName { get; set; } = Loc.T("Tax ") + SeIconChar.Gil.ToIconString();
 
     public override int Width { get; set; } = 70;
 

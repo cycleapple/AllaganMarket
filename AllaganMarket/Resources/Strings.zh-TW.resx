@@ -224,7 +224,7 @@
     <value>僅 HQ</value>
   </data>
   <data name="Highlight retainer list?" xml:space="preserve">
-    <value>標示僱員列表？</value>
+    <value>標示僱員清單？</value>
   </data>
   <data name="Highlight retainer sell list?" xml:space="preserve">
     <value>標示僱員出售列表？</value>
@@ -272,7 +272,7 @@
     <value>是否 HQ</value>
   </data>
   <data name="It looks like you opened your retainer before this plugin loaded. Please go back to the retainer list and reopen the retainer. The only time this happens is when the plugin is updated or you have just installed the plugin." xml:space="preserve">
-    <value>你似乎在此外掛載入前就開啟了僱員介面。請返回僱員列表後重新開啟僱員；此外掛剛更新或安裝時可能會發生此情況。</value>
+    <value>你似乎在此外掛載入前就開啟了僱員介面。請返回僱員清單後重新開啟僱員；此外掛剛更新或安裝時可能會發生此情況。</value>
   </data>
   <data name="Item Count" xml:space="preserve">
     <value>物品數量</value>
@@ -431,7 +431,7 @@
     <value>僱員 ID</value>
   </data>
   <data name="Retainer List Overlay" xml:space="preserve">
-    <value>僱員列表浮動視窗</value>
+    <value>僱員清單浮動視窗</value>
   </data>
   <data name="Retainer Order" xml:space="preserve">
     <value>僱員順序</value>
@@ -494,7 +494,7 @@
     <value>販售中的物品遭到壓價時，是否顯示聊天訊息？</value>
   </data>
   <data name="Should the retainer list be highlighted for undercuts and updates?" xml:space="preserve">
-    <value>是否在僱員列表標示壓價與待更新狀態？</value>
+    <value>是否在僱員清單標示壓價與待更新狀態？</value>
   </data>
   <data name="Should the retainer sell list be highlighted for undercuts and updates?" xml:space="preserve">
     <value>是否在僱員出售列表標示壓價與待更新狀態？</value>
@@ -578,7 +578,7 @@
     <value>此物品的平均售價。</value>
   </data>
   <data name="The date the item was listed on the market." xml:space="preserve">
-    <value>物品刊登至市場布告板的時間。</value>
+    <value>物品刊登至市場佈告板的時間。</value>
   </data>
   <data name="The icon of the item" xml:space="preserve">
     <value>物品圖示</value>
@@ -620,7 +620,7 @@
     <value>物品售出時顯示訊息。目前只有在查看僱員，且 Allagan Market 能判定物品已售出時才會觸發。</value>
   </data>
   <data name="Toggle highlighting on the retainer list." xml:space="preserve">
-    <value>切換僱員列表的醒目標示。</value>
+    <value>切換僱員清單的醒目標示。</value>
   </data>
   <data name="Toggle search bar" xml:space="preserve">
     <value>切換搜尋列</value>
@@ -737,7 +737,7 @@
     <value>設定建議價格要取整至最接近的倍數；若不想取整請設為 1。</value>
   </data>
   <data name="When enabled and you are at a retainer bell, a overlay will display on the right hand side of the retainer list, sales list and when pricing items." xml:space="preserve">
-    <value>啟用後，使用傳喚鈴時會在僱員列表、出售列表及物品定價介面的右側顯示浮動視窗。</value>
+    <value>啟用後，使用傳喚鈴時會在僱員清單、出售列表及物品定價介面的右側顯示浮動視窗。</value>
   </data>
   <data name="When multiple undercuts occur, how should these be grouped together?" xml:space="preserve">
     <value>同時發生多筆壓價時，要如何分組顯示？</value>

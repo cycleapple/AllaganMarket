@@ -20,9 +20,9 @@ public class RetainerColumn(
 
     public override string Key { get; set; } = "RetainerName";
 
-    public override string Name { get; set; } = Loc.T("Retainer");
+    public override string Name { get; set; } = "Retainer";
 
-    public override string? RenderName { get; set; } = null;
+    public override string? RenderName { get; set; } = Loc.T("Retainer");
 
     public override int Width { get; set; } = 100;
 

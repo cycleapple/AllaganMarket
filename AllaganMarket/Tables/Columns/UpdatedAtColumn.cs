@@ -23,9 +23,9 @@ public class UpdatedAtColumn(ImGuiService imGuiService, StringColumnFilter strin
 
     public override string Key { get; set; } = "UpdatedAt";
 
-    public override string Name { get; set; } = Loc.T("Updated At");
+    public override string Name { get; set; } = "Updated At";
 
-    public override string? RenderName { get; set; } = null;
+    public override string? RenderName { get; set; } = Loc.T("Updated At");
 
     public override int Width { get; set; } = 100;
 

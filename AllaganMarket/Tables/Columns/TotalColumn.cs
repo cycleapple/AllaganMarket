@@ -19,9 +19,9 @@ public class TotalColumn(NumberFormatInfo gilFormat, ImGuiService imGuiService, 
 
     public override string Key { get; set; } = "Total";
 
-    public override string Name { get; set; } = Loc.T("Total ") + SeIconChar.Gil.ToIconString();
+    public override string Name { get; set; } = "Total " + SeIconChar.Gil.ToIconString();
 
-    public override string? RenderName { get; set; } = null;
+    public override string? RenderName { get; set; } = Loc.T("Total ") + SeIconChar.Gil.ToIconString();
 
     public override int Width { get; set; } = 70;
 

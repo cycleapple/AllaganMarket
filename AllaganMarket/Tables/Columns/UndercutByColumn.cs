@@ -20,9 +20,9 @@ public class UndercutByColumn(NumberFormatInfo gilFormat, ImGuiService imGuiServ
 
     public override string Key { get; set; } = "UndercutBy";
 
-    public override string Name { get; set; } = Loc.T("Undercut by");
+    public override string Name { get; set; } = "Undercut by";
 
-    public override string? RenderName { get; set; } = null;
+    public override string? RenderName { get; set; } = Loc.T("Undercut by");
 
     public override int Width { get; set; } = 100;
 

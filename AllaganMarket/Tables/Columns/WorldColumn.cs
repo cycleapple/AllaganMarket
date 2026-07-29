@@ -18,9 +18,9 @@ public class WorldColumn(ExcelSheet<World> worldSheet, ImGuiService imGuiService
 
     public override string Key { get; set; } = "World";
 
-    public override string Name { get; set; } = Loc.T("World");
+    public override string Name { get; set; } = "World";
 
-    public override string? RenderName { get; set; } = null;
+    public override string? RenderName { get; set; } = Loc.T("World");
 
     public override int Width { get; set; } = 100;
 

@@ -18,9 +18,9 @@ public class SoldAtColumn(ImGuiService imGuiService, StringColumnFilter stringCo
 
     public override string Key { get; set; } = "SoldAt";
 
-    public override string Name { get; set; } = Loc.T("Sold At");
+    public override string Name { get; set; } = "Sold At";
 
-    public override string? RenderName { get; set; } = null;
+    public override string? RenderName { get; set; } = Loc.T("Sold At");
 
     public override int Width { get; set; } = 100;
 

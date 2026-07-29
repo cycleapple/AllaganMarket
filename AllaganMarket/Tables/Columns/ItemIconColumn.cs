@@ -29,9 +29,9 @@ public class ItemIconColumn : IconColumn<SearchResultConfiguration, SearchResult
 
     public override string Key { get; set; } = "Icon";
 
-    public override string Name { get; set; } = Loc.T("Icon");
+    public override string Name { get; set; } = "Icon";
 
-    public override string? RenderName { get; set; } = null;
+    public override string? RenderName { get; set; } = Loc.T("Icon");
 
     public override int Width { get; set; } = 32;
 

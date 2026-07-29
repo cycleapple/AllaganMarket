@@ -17,9 +17,9 @@ public class UnitPriceColumn(NumberFormatInfo gilFormat, ImGuiService imGuiServi
 
     public override string Key { get; set; } = "UnitPrice";
 
-    public override string Name { get; set; } = Loc.T("Unit Price");
+    public override string Name { get; set; } = "Unit Price";
 
-    public override string? RenderName { get; set; }
+    public override string? RenderName { get; set; } = Loc.T("Unit Price");
 
     public override int Width { get; set; } = 100;
 
