@@ -1,6 +1,6 @@
 <Project Sdk="Dalamud.NET.Sdk/13.1.0">
   <PropertyGroup>
-    <Version>1.2.0.8</Version>
+    <Version>1.2.0.9</Version>
     <Description>協助追蹤僱員的出售中物品與出售記錄。</Description>
     <PackageProjectUrl>https://github.com/cycleapple/AllaganMarket/tree/api13-tw</PackageProjectUrl>
     <RepositoryUrl>https://github.com/cycleapple/AllaganMarket</RepositoryUrl>
